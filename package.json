@@ -1,11 +1,11 @@
 {
-  "name": "hermes",
+  "name": "Hermes",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/hermes/",
+    "build": "vite build --base=/Hermes/",
     "preview": "vite preview"
   },
   "devDependencies": {
