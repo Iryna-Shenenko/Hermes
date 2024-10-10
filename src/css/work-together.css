@@ -1,0 +1,11 @@
+.section-heading {
+    font: 400 52px / 1.23077 "Impact", sans-serif;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #292929;
+}
+
+.heading-green {
+    font: 400 52px / 1.23077 "Impact", sans-serif;
+    color: #00b068;
+}
