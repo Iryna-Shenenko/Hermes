@@ -108,6 +108,10 @@
   margin-top: 40px;
 }
 
+.myprojects-button-load:hover {
+  color: #00b068;
+}
+
 .myprojects-svg-load {
   margin-right: auto;
   margin-left: auto;
@@ -118,6 +122,11 @@
 .myprojects-button-load[disabled] {
   opacity: 0.6;
   cursor: not-allowed;
+  color: #292929;
+}
+
+.myprojects-button-load[disabled] .myprojects-svg-load {
+  opacity: 0;
 }
 
 @media screen and (min-width: 768px) {
@@ -153,7 +162,8 @@
     align-items: flex-start;
     justify-content: flex-start;
     flex-direction: row;
-    gap: 32px;
+    justify-content: space-between;
+    gap: auto;
   }
   .myprojects-info-title {
     font-size: 36px;
@@ -181,9 +191,28 @@
     width: 1008px;
     height: 580px;
   }
+}
 
-  .myprojects-info {
-    justify-content: space-between;
-    gap: auto;
-  }
+.dark-theme {
+  background-color: #292933;
+  color: #f0f0f0;
+}
+
+.dark-theme h2,
+.dark-theme p,
+.dark-theme h3,
+.dark-theme button {
+  color: #f0f0f0;
+}
+
+.dark-theme .myprojects-info-button {
+  background: #2a2d32;
+}
+
+.dark-theme .myprojects-info-button:hover {
+  background: #3b3f45;
+}
+
+.dark-theme .myprojects-button-load[disabled] {
+  color: #f0f0f0;
 }

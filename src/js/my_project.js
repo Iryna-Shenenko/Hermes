@@ -74,18 +74,24 @@ function renderInitialImages() {
 
 
 function loadMoreImages() {
-  buttonLoad.textContent = "Loading...";
-  buttonLoad.disabled = true; 
+  const originalButtonText = buttonLoad.querySelector('span');
+  if (originalButtonText) {
+    originalButtonText.textContent = "Loading...";
+  }
+
+  buttonLoad.disabled = true;
 
   setTimeout(() => {
     visibleImages += 3;
-    const newImages = images.slice(0, visibleImages);
-    listEl.innerHTML = createImageCards(newImages);
+    const newImages = images.slice(visibleImages - 3, visibleImages);
+    
+    listEl.insertAdjacentHTML('beforeend', createImageCards(newImages));
 
+    if (originalButtonText) {
+      originalButtonText.textContent = "Load More";
+    }
 
-    buttonLoad.textContent = "Load More";
     buttonLoad.disabled = false;
-
 
     if (visibleImages >= images.length) {
       buttonLoad.classList.add("load-hide");
