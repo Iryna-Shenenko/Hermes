@@ -1,26 +1,33 @@
-<section>
+<section class="faq-section">
   <div class="container">
-    <h2>frequently asked <span>question</span></h2>
-    <div class="accordion-container">
-      <div class="ac">
+    <h2 class="title">frequently asked <span>question</span></h2>
+    <ul class="accordion-container">
+      <li class="ac js-enabled is-active">
         <h2 class="ac-header">
-          <button type="button" class="ac-trigger">
-            What programming languages ​​are most often used in your project?
+          <button
+            type="button"
+            class="ac-trigger"
+            aria-expanded="true"
+            aria-disabled="false"
+          >
+            <p>
+              What programming languages ​​are most often used in your project?
+            </p>
           </button>
         </h2>
-        <div class="ac-panel">
+        <div class="ac-panel" style="display: block; transition: 0.5s">
           <p class="ac-text">
             In the field of web development, there are various technologies and
             programming languages. Typically, this includes a combination of
             frontend (client side) and backend (server side) languages.
           </p>
         </div>
-      </div>
+      </li>
 
-      <div class="ac">
+      <li class="ac">
         <h2 class="ac-header">
           <button type="button" class="ac-trigger">
-            What are the deadlines for the project?
+            <p>What are the deadlines for the project?</p>
           </button>
         </h2>
         <div class="ac-panel">
@@ -32,12 +39,12 @@
             the project.
           </p>
         </div>
-      </div>
+      </li>
 
-      <div class="ac">
+      <li class="ac">
         <h2 class="ac-header">
           <button type="button" class="ac-trigger">
-            What payment methods do you accept?
+            <p>What payment methods do you accept?</p>
           </button>
         </h2>
         <div class="ac-panel">
@@ -47,12 +54,12 @@
             payments in cryptocurrencies such as Bitcoin, Ethereum and others.
           </p>
         </div>
-      </div>
+      </li>
 
-      <div class="ac">
+      <li class="ac">
         <h2 class="ac-header">
           <button type="button" class="ac-trigger">
-            How can I contact you?
+            <p>How can I contact you?</p>
           </button>
         </h2>
         <div class="ac-panel">
@@ -62,12 +69,12 @@
             frontend (client side) and backend (server side) languages.
           </p>
         </div>
-      </div>
+      </li>
 
-      <div class="ac">
+      <li class="ac">
         <h2 class="ac-header">
           <button type="button" class="ac-trigger">
-            Do you provide advice or support?
+            <p>Do you provide advice or support?</p>
           </button>
         </h2>
         <div class="ac-panel">
@@ -79,13 +86,15 @@
             the project.
           </p>
         </div>
-      </div>
+      </li>
 
-      <div class="ac">
+      <li class="ac">
         <h2 class="ac-header">
           <button type="button" class="ac-trigger">
-            What does the process of developing a software product look like
-            from idea to implementation?
+            <p>
+              What does the process of developing a software product look like
+              from idea to implementation?
+            </p>
           </button>
         </h2>
         <div class="ac-panel">
@@ -95,9 +104,9 @@
             payments in cryptocurrencies such as Bitcoin, Ethereum and others.
           </p>
         </div>
-      </div>
-    </div>
+      </li>
+    </ul>
   </div>
-
-  <script type="module" src="../js/acardion.js"></script>
 </section>
+
+
