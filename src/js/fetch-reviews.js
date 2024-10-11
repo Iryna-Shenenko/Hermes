@@ -7,7 +7,7 @@ import "swiper/css/pagination";
 
 const carousel = document.querySelector(".reviews-list");
 
-new Swiper(".swiper", {
+const swiper = new Swiper(".swiper", {
   modules: [Navigation, Pagination],
   navigation: {
     nextEl: ".swiper-button-next",
@@ -39,3 +39,28 @@ async function createMarkup(reviews) {
     console.log(error);
   }
 }
+
+const breakpoints = {
+  mobile: 480,
+  tablet: 768,
+  desktop: 1024,
+};
+
+function handleViewportChange() {
+  const currentWidth = window.innerWidth;
+
+  if (currentWidth < breakpoints.mobile) {
+    swiper.params.slidesPerView = 1;
+
+    // Mobile layout
+  } else if (currentWidth < breakpoints.tablet) {
+    swiper.params.slidesPerView = 1;
+
+    // Tablet layout
+  } else {
+    // Desktop layout
+    swiper.params.slidesPerView = 2;
+  }
+}
+
+window.addEventListener("resize", handleViewportChange);
