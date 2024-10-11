@@ -1,1 +1,2 @@
-import './js/scroll';
+import "./js/scroll";
+import "./js/fetch-reviews";
