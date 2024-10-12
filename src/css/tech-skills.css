@@ -1,7 +1,7 @@
 /*  для всего проекта */
 
 /* Контейнер */
-.container {
+.box-line {
   max-width: 100%;
   margin: 0 auto;
   padding: 0 15px;
@@ -27,7 +27,6 @@
 
 .running-line {
   overflow: hidden;
-
   background: #bcdfd1;
   padding: 32px 0px;
 }
@@ -95,7 +94,7 @@
     font-size: 33px;
   }
 
-  .container {
+  .box-line {
     padding: 0 15px;
   }
 }
@@ -106,14 +105,14 @@
     font-size: 34px;
   }
 
-  .container {
+  .box-line {
     padding: 0 20px;
   }
 }
 
 /* Планшет */
 @media screen and (min-width: 768px) {
-  .container {
+  .box-line {
     max-width: 750px;
     padding: 0 30px;
   }
@@ -143,7 +142,7 @@
 
 /* Десктоп */
 @media screen and (min-width: 1280px) {
-  .container {
+  .box-line {
     max-width: 1280px;
     padding: 0 40px;
   }
