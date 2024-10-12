@@ -7,24 +7,25 @@
 </head>
 <body>
     <section><div class="container">
-        <h1 class = "section-heading">let's <span class="heading-green">work together</span></h1>
-    <p>Contact me to transform your ideas into exceptional solutions.</p>
-    <ul>
+        <h1 class = "section-heading">let's&nbsp;<span class="heading-green">work together</span></h1>
+        <div class="desktop-present">
+    <p class="text-content">Contact me to transform your ideas into exceptional solutions.</p>
+    <div class="miracle">
+     <ul class="contacts-section">
         <li><span></span>+38 090 456 78 90</li>
         <li><span></span>lloydjefferson@gmail.com</li>
         <li><span></span>USA, New York</li>
     </ul>
-    <form class="contact-form" id="" autocomplete="off">
+     <form class="contact-form" id="contact-form" autocomplete="off">
         <label for="user-email">
-            <input type="email" class="contact-input" name="user-email" pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" title="Email is wrong" id="user-email" placeholder="Email" maxlength="41" required>
+            <input type="email" class="email-input" name="user-email" pattern="^\w+(\.\w+)?@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$" title="Email is wrong" id="user-email" placeholder="Your email&#42;" maxlength="41" required>
         </label>
         <label for="contact-description">
-            <textarea rows="4" cols="20" class="contact-text" name="contact-description" id="contact-description" placeholder="Comment" maxlength="120"></textarea>
+            <textarea rows="4" cols="20" class="message-text" name="message-description" id="message-description" placeholder="Message" maxlength="120"></textarea>
         </label>
-        <button type="submit" class="contact-btn" form="contact-form">Send</button>
+        <button type="submit" class="contact-btn" form="contact-form">Send message</button>
     </form>
+</div>
     </div></section>
-    
-    
 </body>
 </html>
