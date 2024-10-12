@@ -31,6 +31,11 @@
     cursor: pointer;
 }
 
+.svg-icon{
+    margin-right: 16px;
+    display: inline-block;
+}
+
 .contacts-section>li:hover,
 .contacts-section>li:focus {
     color: #00b068;
@@ -144,4 +149,5 @@ h1.section-heading,
  .contact-form{
     width: 592px;
  }
+
 }
