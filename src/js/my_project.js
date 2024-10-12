@@ -82,9 +82,12 @@ function loadMoreImages() {
   buttonLoad.disabled = true;
 
   setTimeout(() => {
-    visibleImages += 3;
-    const newImages = images.slice(visibleImages - 3, visibleImages);
+    const remainingImages = images.length - visibleImages;
     
+    const loadCount = remainingImages >= 3 ? 3 : remainingImages;
+    visibleImages += loadCount;
+
+    const newImages = images.slice(visibleImages - loadCount, visibleImages);
     listEl.insertAdjacentHTML('beforeend', createImageCards(newImages));
 
     if (originalButtonText) {
@@ -94,7 +97,7 @@ function loadMoreImages() {
     buttonLoad.disabled = false;
 
     if (visibleImages >= images.length) {
-      buttonLoad.classList.add("load-hide");
+      buttonLoad.style.display = 'none'; 
     }
   }, 1000);
 }
