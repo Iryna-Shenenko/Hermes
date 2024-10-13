@@ -3,19 +3,26 @@
   flex-direction: column;
   align-items: center;
   margin-top: 80px;
-  height: 464px;
+  margin-bottom: 80px;
+  min-height: 464px;
 }
 
 .reviews-wrap {
-  width: 320px;
-}
-
-.container {
+  display: flex;
+  justify-content: center;
   border-radius: 16px;
   padding: 32px;
   width: 320px;
-  min-height: 296px; /*to ask about this*/
+  height: auto; /*to ask about this*/
   background-color: #e4e5e6;
+}
+
+.dark-theme .reviews-wrap {
+  background-color: #2a2d32;
+}
+
+.container {
+  max-width: 320px;
 }
 
 .reviews-title {
@@ -41,25 +48,25 @@
   display: flex;
 }
 
-.review-item {
+.reviews-item {
   display: flex;
   flex-direction: column;
   gap: 24px;
 }
 
-.review-credentials {
+.reviews-credentials {
   display: flex;
   align-items: center;
   gap: 16px;
 }
 
-.review-img {
+.reviews-img {
   width: 40px;
   height: 40px;
   border-radius: 50%;
 }
 
-.review-text {
+.reviews-text {
   font-family: "Poppins";
   font-weight: 300;
   font-size: 16px;
@@ -68,7 +75,7 @@
   color: black;
 }
 
-.review-author {
+.reviews-author {
   font-family: "Poppins";
   font-weight: 600;
   font-size: 16px;
@@ -82,6 +89,10 @@
   gap: 16px;
   display: flex;
   justify-content: end;
+}
+
+.nav-arrow-prev {
+  transform: rotate(180deg);
 }
 
 .nav-arrow-next,
@@ -100,4 +111,50 @@
   opacity: 0.35;
   cursor: auto;
   pointer-events: none;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding-top: 124px;
+  }
+  .reviews-title {
+    font-weight: 400;
+    font-size: 108px;
+    line-height: 1.14815;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #292929;
+    margin-bottom: 60px;
+  }
+  .reviews-wrap {
+    border-radius: 16px;
+    padding: 32px;
+    width: 704px;
+    height: 224px;
+  }
+
+  .nav-arrows {
+    /* margin-top: -2px; */
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+    padding-top: 164px;
+  }
+  .nav-arrows {
+    /* margin-top: -25px; */
+  }
+
+  .reviews-list {
+    width: 1216px;
+    height: 224px;
+    justify-content: space-between;
+  }
+
+  .reviews-wrap {
+    width: 592px;
+  }
 }
