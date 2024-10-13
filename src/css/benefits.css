@@ -1,8 +1,8 @@
 @media (min-width:320px) {
-    .benefits {
+    /* .benefits {
         padding-top: 40px;
         padding-bottom: 40px;
-    }
+    } */
 
     .benefits-main-title {
         font-family: "Impact", sans-serif;
@@ -80,9 +80,9 @@
 
 @media (min-width: 768px) {
 
-    .benefits {
+    /* .benefits {
         padding: 62px 0;
-    }
+    } */
 
     .benefits-main-title {
         font-size: 108px;
@@ -134,9 +134,9 @@
 
 
 @media (min-width: 1280px) {
-    .benefits {
+    /* .benefits {
 
         padding-top: 164px;
-    }
+    } */
 
 }
