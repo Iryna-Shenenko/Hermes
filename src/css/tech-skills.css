@@ -21,10 +21,10 @@
 }
 
 /* Tech Skills */
-.tech-skills {
+/* .tech-skills {
   /* background-color: #f8f9fa; */
-  padding: 30px 0;
-}
+/* padding: 30px 0; */
+
 
 .running-line {
   overflow: hidden;
@@ -95,9 +95,9 @@
     font-size: 33px;
   }
 
-  .box-line {
+  /* .box-line {
     padding: 0 15px;
-  }
+  } */
 }
 
 /* Мобилка  360px до 767px  */
@@ -106,16 +106,16 @@
     font-size: 34px;
   }
 
-  .box-line {
-    padding: 0 20px;
-  }
+  /* .box-line {
+  padding: 0 20px;
+  } */
 }
 
 /* Планшет */
 @media screen and (min-width: 768px) {
   .box-line {
     max-width: 750px;
-    padding: 0 30px;
+    /* padding: 0 30px; */
   }
 
   .running-line {
@@ -149,7 +149,7 @@
 @media screen and (min-width: 1280px) {
   .box-line {
     max-width: 1280px;
-    padding: 0 40px;
+    /* padding: 0 40px; */
   }
 }
 
