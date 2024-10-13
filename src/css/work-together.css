@@ -148,7 +148,7 @@ h1.section-heading,
     background-size: 526px;
     background-repeat: no-repeat;
     background-position: top right;
-    transform: translate(100px, 200px);
+    /* transform: translate(100px, 200px); */
     }
         
 @media only screen and (-webkit-min-device-pixel-ratio: 2),
