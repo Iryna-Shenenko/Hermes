@@ -29,11 +29,11 @@
     color: #292929;
     margin-bottom: 40px;
     cursor: pointer;
-}
+ 
+ }
 
 .svg-icon{
     margin-right: 16px;
-    display: inline-block;
 }
 
 .contacts-section>li:hover,
@@ -104,6 +104,20 @@
 
 @media screen and (min-width: 768px) {
 
+.work-together-container .container {
+    background-image: url(../img/work-together/wt_x1_tablet.png);
+    background-size: 336px;
+    background-repeat: no-repeat;
+    background-position: top right;
+    }
+        
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+    only screen and (min-resolution: 192dpi) {
+.work-together-container .container {
+    background-image: url(../img/work-together/wt_x2_tablet.png);
+    }
+    }
+
 .contacts-section{
     display: flex;
     flex-direction: row;
@@ -123,31 +137,58 @@ h1.section-heading,
     font: 400 108px / 1.14815 "Impact", sans-serif;
     letter-spacing: 0.02em;
     width: 507px;
-    
 }
 
 }
 
 @media screen and (min-width: 1200px) {
-.text-content{
-    margin-bottom: 120px;
+
+.work-together-container .container {
+    background-image: url(../img/work-together/wt_x1_desktop.png);
+    background-size: 526px;
+    background-repeat: no-repeat;
+    background-position: top right;
+    transform: translate(100px, 200px);
+    }
+        
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+    only screen and (min-resolution: 192dpi) {
+.work-together-container .container {
+    background-image: url(../img/work-together/wt_x2_desktop.png);
+    }
+    }
+
+
+.desktop-present{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 120px;
 }
 
 .contacts-section{
+    display: flex;
     flex-direction: column;
     gap: 16px;
+    font: 300 16px / 1.5 "Poppins", sans-serif;
+    letter-spacing: 0.03em;
+    color: #292929;
+    margin-bottom: 0px;
+    cursor: pointer;
 }
 
-.miracle{
-    display: inline-flex;
-    font-display: row;
-    gap: 136px;
+.desctop-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
-.contacts-section{
-    width: 488px;
-}
- .contact-form{
+
+.contact-form{
     width: 592px;
+    justify-content: space-between;
  }
+
+
 
 }
