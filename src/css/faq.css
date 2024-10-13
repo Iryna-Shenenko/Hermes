@@ -1,0 +1,129 @@
+.faq-section {
+  padding: 40px 0;
+}
+
+.faq-section .title {
+  font-family: "Impact";
+  font-weight: 400;
+  font-size: 52px;
+  line-height: 64px;
+  text-transform: uppercase;
+  color: #292929;
+  margin-bottom: 40px;
+}
+
+.faq-section .title span {
+  color: #00b068;
+}
+
+.faq-section .ac {
+  margin-top: 0;
+  border: none;
+  background-color: #fff;
+  border-radius: 16px;
+  padding: 28px 24px;
+  border-bottom: 1px solid #e4e5e6;
+}
+
+.ac.js-enabled.is-active {
+  background: #bcdfd1;
+}
+
+.faq-section .ac .ac-trigger {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  line-height: 1.55556;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #292929;
+  padding: 0;
+}
+
+.faq-section .ac.ac.is-active .ac-trigger {
+  margin-bottom: 24px;
+}
+
+.faq-section .ac .ac-trigger p {
+  width: 224px;
+  color: #292929 !important;
+}
+
+.faq-section .ac .ac-panel .ac-text {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  color: #292929;
+  padding: 0;
+}
+
+.faq-section .ac .ac-trigger::after {
+  content: url("../img/faq/acardion-arrow.svg");
+  text-align: center;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: 0.5s;
+  -webkit-transform: translate(0);
+  transform: translate(0);
+}
+
+.faq-section .ac.is-active>.ac-header .ac-trigger::after {
+  content: url("../img/faq/acardion-arrow.svg");
+  transform: rotate(180deg);
+}
+
+@media (min-width: 768px) {
+
+  .faq-section .title {
+    font-size: 108px;
+    line-height: 124px;
+    margin-bottom: 60px;
+    width: 520px;
+  }
+
+  .faq-section .ac .ac-trigger p {
+    width: 600px;
+    font-size: 20px;
+
+    line-height: 32px;
+  }
+}
+
+@media (min-width: 1280px) {
+
+
+  .faq-section .container {
+    background-image: url(../img/faq/decor-bg.png);
+    background-size: 524px;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+  }
+
+  @media only screen and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (min-resolution: 192dpi) {
+    .faq-section .container {
+      background-image: url(../img/faq/decor-bg-retina.png);
+    }
+  }
+
+  .accordion-container {
+    width: 592px;
+    margin-left: auto;
+    margin-top: -5vw;
+  }
+
+  .faq-section .ac .ac-trigger p {
+    width: 500px;
+  }
+
+  .faq-section .title {
+    margin-bottom: 0;
+  }
+}

@@ -1,0 +1,176 @@
+/*  для всего проекта */
+
+/* Контейнер */
+.box-line {
+  max-width: 100%;
+  margin: 0 auto;
+  /* padding: 0 15px; */
+}
+
+/* скрытый заговок секции */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Tech Skills */
+/* .tech-skills {
+  /* background-color: #f8f9fa; */
+/* padding: 30px 0; */
+
+
+.running-line {
+  overflow: hidden;
+  background: #bcdfd1;
+  padding: 32px 0px;
+}
+
+.experience {
+  display: flex;
+  width: 100%;
+  white-space: nowrap;
+  animation: running-line 20s linear infinite;
+}
+
+.running-text {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #292929;
+}
+
+.dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background-color: #00b068;
+  border-radius: 50%;
+  margin: 0 8px;
+  transform: rotate(-180deg);
+  vertical-align: middle;
+}
+
+.second-line {
+  background: #e4e5e6;
+  transform: rotate(2deg);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 16px;
+  padding: 32px 0px;
+}
+
+.second-text {
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #00b068;
+}
+
+.black-dot {
+  background: #292929;
+}
+
+.reverse {
+  animation: reverse-running-line 20s linear infinite;
+}
+
+/* Мобилка 320px до 359px */
+@media screen and (min-width: 320px) {
+  .running-text {
+    font-size: 33px;
+  }
+
+  /* .box-line {
+    padding: 0 15px;
+  } */
+}
+
+/* Мобилка  360px до 767px  */
+@media screen and (min-width: 360px) {
+  .running-text {
+    font-size: 34px;
+  }
+
+  /* .box-line {
+  padding: 0 20px;
+  } */
+}
+
+/* Планшет */
+@media screen and (min-width: 768px) {
+  .box-line {
+    max-width: 750px;
+    /* padding: 0 30px; */
+  }
+
+  .running-line {
+    padding: 40px 0px;
+  }
+
+  .running-text {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 1.33333;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    color: #292929;
+  }
+
+  .second-line {
+    padding: 40px 0px;
+  }
+
+  .second-text {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 1.33333;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    color: #00b068;
+  }
+}
+
+/* Десктоп */
+@media screen and (min-width: 1280px) {
+  .box-line {
+    max-width: 1280px;
+    /* padding: 0 40px; */
+  }
+}
+
+/* бегущие строки */
+@keyframes running-line {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/*обратное направления для второй строки */
+@keyframes reverse-running-line {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(100%);
+  }
+}

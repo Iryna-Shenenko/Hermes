@@ -19,14 +19,30 @@
 body {
   display: flex;
   flex-direction: column;
-  min-width: 100vw;
   min-height: 100vh;
   margin: 0;
+  background-color: #f0f0f0;
+  color: #333333;
+  stroke: #292929;
 }
+
+body.dark-theme {
+  background-color: #1E2023;
+  color: #fff;
+  stroke: #fff;
+}
+
+.dark-theme h2,
+.dark-theme p,
+.dark-theme button {
+  color: #fff;
+}
+
 
 main {
   flex-grow: 1;
 }
+
 main:has(.back-link) {
   text-align: center;
 }
