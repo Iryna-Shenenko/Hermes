@@ -16,10 +16,10 @@ body.dark-theme {
   align-items: center;
   flex-shrink: 0;
   position: relative;
-  width: 48px;
-  height: 24px;
+  width: 46px;
+  height: 20px;
   border-radius: 16px;
-  margin-left: 20px;
+  margin-left: 22px;
 }
 
 .theme-switch__toggle {
@@ -51,9 +51,8 @@ body.dark-theme {
 .theme-switch__marker {
   position: relative;
   background-color: #00b068;
-  ;
-  width: 20px;
-  height: 20px;
+  width: 18px;
+  height: 18px;
   border-radius: 100%;
   z-index: 2;
   pointer-events: none;
@@ -81,10 +80,6 @@ body.dark-theme {
   background-color: #008000;
 }
 
-.toolbar {
-  display: flex;
-  justify-content: flex-end;
-}
 
 /*---------HEADER---------- */
 .header {
@@ -95,16 +90,10 @@ body.dark-theme {
   z-index: 2;
 }
 
-.container {
-  min-width: 320px;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
 .container-header {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -247,10 +236,6 @@ body.dark-theme {
 /* ------------MEDIA------------------ */
 
 @media (min-width: 360px) and (max-width: 767px) {
-  .container {
-    max-width: 360px;
-  }
-
   .theme-switch__control {
     margin-left: 60px;
   }
@@ -261,31 +246,27 @@ body.dark-theme {
 }
 
 @media (min-width: 768px) {
-  .container {
-    padding-left: 32px;
-    padding-right: 32px;
-  }
-
   .menu-container {
     display: flex;
     flex-direction: row;
     text-wrap: nowrap;
     gap: 40px;
-    margin-left: 40px;
+    margin-left: 20px;
   }
 
   .theme-switch__control {
-    margin-left: 100px;
+    margin-left: 44px;
+    width: 48px;
+    height: 24px;
   }
 
-  .header-menu {
-    align-items: center;
+  .theme-switch__marker{
+    width: 20px;
+    height: 20px;
   }
 
   .container-header {
-    max-width: 768px;
-    padding-top: 32px;
-    padding-bottom: 32px;
+    padding: 32px;
   }
 
   .menu-header {
@@ -301,17 +282,18 @@ body.dark-theme {
     overflow: hidden;
   }
 
+  .logo-link {
+    font-size: 32px;
+    letter-spacing: 0.05em;
+    }
+
   .open-menu {
     display: none;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .container-header {
-    max-width: 1280px;
-  }
-
   .theme-switch__control {
-    margin-left: 590px;
+    margin-left: 560px;
   }
 }
