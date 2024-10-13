@@ -1,4 +1,4 @@
-.benefits{
+.benefits-section{
 padding: 80px 0;
 }
 .section-title {
@@ -59,7 +59,7 @@ height: 24px;
  /* Styles for Tablet devices */
 
 @media screen and (max-width: 767px) {
-.benefits{
+.benefits-section{
 padding: 80px 0;
 }   
 
@@ -70,7 +70,7 @@ margin-bottom: 40px;
 
  @media only screen and (min-width: 768px) {
 
-    .benefits {
+    .benefits-section {
    /* padding: 124px 0; */
      }
 
@@ -86,8 +86,8 @@ font-size: 108px;
 .benefits-list.grid-container{
 display: grid;
 grid-template-columns: repeat(2, 1fr);
-gap: 32px;
 grid-template-rows: auto auto;
+gap: 32px;
 }
 
 .grid-item1{
@@ -98,18 +98,19 @@ grid-row: 1;
 .grid-item2 {
 grid-column: 1 / 2;
 grid-row: 2;
- }
+}
 
 .grid-item3 {
 grid-column: 2 / 3;
 grid-row: 2;
-   }
+}
 
 .grid-item4 {
 grid-column: 1 / 2;
 grid-row: 3;
-   }
- }
+}
+
+}
 
 
 
@@ -117,7 +118,7 @@ grid-row: 3;
 
 
 @media only screen and (min-width: 1280px) {
-     .benefits{
+     .benefits-section{
 /* padding: 124px 0; */
      }
 .benefits-title{
@@ -128,7 +129,7 @@ grid-row: 3;
     font-size: 108px;
 }
 
-.benefits .container{
+.benefits-section .container {
 position: relative;
 padding-top: 116px;
 
@@ -154,7 +155,7 @@ margin-top: 276px;
 
 
 .benefits-list.grid-container {
-    grid-template-columns: repeat(3, 1fr);
+grid-template-columns: repeat(3, 1fr);
 }
 
 .grid-item1 {
@@ -178,27 +179,3 @@ margin-top: 276px;
 }
  
  }
-
-  @keyframes gradientShift {
-      0% {
-          background-position: 0% 50%;
-      }
-
-      80% {
-          background-position: 100% 50%;
-      }
-
-      100% {
-          background-position: 0% 50%;
-      }
-  }
-
-  @keyframes titleGlare {
-      0% {
-          background-position: 250% 50%;
-      }
-
-      100% {
-          background-position: -250% 50%;
-      }
-    }
