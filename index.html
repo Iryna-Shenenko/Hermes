@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href="/Hermes/assets/favicon-vuQ0R6MU.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My-portfolio</title>
     <link
@@ -15,15 +15,62 @@
     <script type="module" crossorigin src="/Hermes/index.js"></script>
     <link rel="modulepreload" crossorigin href="/Hermes/assets/vendor-CTqzIL4Y.js">
     <link rel="stylesheet" crossorigin href="/Hermes/assets/vendor-CzG10Eoq.css">
-    <link rel="stylesheet" crossorigin href="/Hermes/assets/index-e4QWXYv8.css">
+    <link rel="stylesheet" crossorigin href="/Hermes/assets/index-Bsnuz9Cp.css">
   </head>
   <body>
-    
+    <header class="header">
+    <div class="container container-header">
+        <!--Menu-->
+        <nav class="header-menu">
+            <a class="logo-link" href="./index.html">Lloyd<span class="color-logo">Jefferson.</span></a>
+            <!-- Theme switcher -->
+            <div class="theme-switch__control">
+                <input class="theme-switch__toggle" type="checkbox" name="theme" id="theme-switch-toggle"
+                    aria-label="switch between dark and light theme">
+                <label aria-hidden="true" class="theme-switch__track" for="theme-switch-toggle">
+                </label>
+                <div aria-hidden="true" class="theme-switch__marker"></div>
+            </div>
+            <ul class="menu menu-container">
+                <li><a href="#about-me" class="menu-link">About me</a></li>
+                <li><a href="#projects" class="menu-link">Projects</a></li>
+                <li><a href="#contacts" class="menu-link">Contacts</a></li>
+            </ul>
+
+            <div class="navigation">
+                <button class="open-header-menu-button" type="button">
+                    <svg class="open-menu" width="22" height="16">
+                        <use class="icon-color" href="/Hermes/assets/icons-light-BKuxoLqv.svg#icon-burger"></use>
+                    </svg>
+                </button>
+            </div>
+        </nav>
+    </div>
+</header>
+
+<!--MENU-HEADER -->
+
+<div class="menu-header">
+    <div class="menu-header-open">
+        <a class="logo-link" href="./index.html">Lloyd<span class="color-logo">Jefferson.</span></a>
+        <button class="close-button" type="button">
+            <svg class="close-icon" width="16" height="16">
+                <use href="/Hermes/assets/icons-light-BKuxoLqv.svg#icon-close-content"></use>
+            </svg>
+        </button>
+
+        <ul class="menu menu-header-list">
+            <li><a href="#about-me" class="menu-header-link">About me</a></li>
+            <li><a href="#projects" class="menu-header-link">Projects</a></li>
+            <li><a href="#contacts" class="menu-header-link">Contacts</a></li>
+        </ul>
+    </div>
+</div>
     <main>
       
       
       <section class="tech-skills">
-  <div class="container">
+  <div class="box-line">
     <h2 class="visually-hidden">Tech Skills</h2>
     <!-- Первая бегущая строка -->
     <div class="running-line">
@@ -53,7 +100,19 @@
   </div>
 </section>
 
-      
+      <div class="myprojects-conteiner">
+  <h2 class="myprojects-title">
+    my <span class="myprojects-title-span">projects</span>
+  </h2>
+  <ul class="myprojects-list-galery"></ul>
+  <button class="myprojects-button-load">
+    <span>load more</span>
+    <svg class="myprojects-svg-load" width="107" height="2">
+      <use href="../img/myprojects.svg#icon-Arrow-1"></use>
+    </svg>
+  </button>
+</div>
+
       
       <section class="faq-section">
   <div class="container">
@@ -171,7 +230,56 @@
       
       
     </main>
-    
+    <footer id="footer">
+  <div class="footer-conteiner">
+    <div class="footer-logo-socials">
+      <a class="footer-logo" href="../index.html"
+        >LLOYD<span class="text-color">JEFFERSON.</span></a
+      >
+      <ul class="footer-socials-list">
+        <li class="footer-social-item">
+          <a
+            href="https://www.instagram.com/goitclub/"
+            class="footer-social-link"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Instagram</a
+          >
+        </li>
+        <li class="footer-social-item">
+          <a
+            href="https://www.facebook.com/goITclub/"
+            class="footer-social-link"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Facebook</a
+          >
+        </li>
+        <li class="footer-social-item">
+          <a
+            href="https://www.linkedin.com/school/goit-start-your-career-in-it"
+            class="footer-social-link"
+            target="_blank"
+            rel="noopener noreferrer"
+            >LinkedIn</a
+          >
+        </li>
+        <li class="footer-social-item">
+          <a
+            href="https://iryna-shenenko.github.io/Hermes/"
+            class="footer-social-link"
+            target="_blank"
+            rel="noopener noreferrer"
+            >GitHub</a
+          >
+        </li>
+      </ul>
+    </div>
+
+    <p class="footer-text">© Copyright 2024. Made by LloydJefferson</p>
+  </div>
+</footer>
+
 
   </body>
 </html>
