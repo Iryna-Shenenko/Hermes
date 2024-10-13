@@ -80,9 +80,6 @@
 }
 
 @media (min-width: 768px) {
-  .faq-section {
-    padding: 62px 0;
-  }
 
   .faq-section .title {
     font-size: 108px;
@@ -100,9 +97,7 @@
 }
 
 @media (min-width: 1280px) {
-  .faq-section {
-    padding: 82px 0;
-  }
+
 
   .faq-section .container {
     background-image: url(../img/faq/decor-bg.png);

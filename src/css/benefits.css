@@ -133,9 +133,9 @@
 /* Styles for Desktop devices */
 
 
-@media (min-width: 1440px) {
+@media (min-width: 1280px) {
     .benefits {
-        padding-bottom: 164px;
+
         padding-top: 164px;
     }
 
