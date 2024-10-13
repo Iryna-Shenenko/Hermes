@@ -1,10 +1,10 @@
-body.light-theme {
+body.light-theme .header {
   background-color: #f0f0f0;
   color: #333333;
   stroke: #292929;
 }
 
-body.dark-theme {
+body.dark-theme .header {
   background-color: #1E2023;
   color: #fff;
   stroke: #fff;
@@ -260,7 +260,7 @@ body.dark-theme {
     height: 24px;
   }
 
-  .theme-switch__marker{
+  .theme-switch__marker {
     width: 20px;
     height: 20px;
   }
@@ -285,7 +285,7 @@ body.dark-theme {
   .logo-link {
     font-size: 32px;
     letter-spacing: 0.05em;
-    }
+  }
 
   .open-menu {
     display: none;

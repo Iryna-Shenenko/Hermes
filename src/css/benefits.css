@@ -97,7 +97,9 @@
         width: 704px;
     }
 
-    .benefit-item {}
+    .benefit-item {
+        border-radius: 16px;
+    }
 
     .benefit-item:nth-child(1) {
         grid-column: 1 / -1;
