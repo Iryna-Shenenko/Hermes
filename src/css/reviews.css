@@ -7,13 +7,23 @@
   min-height: 464px;
 }
 
+.not-found {
+  font-family: "Poppins";
+  display: flex;
+  justify-content: center;
+}
+
+.swiper-slide {
+  height: unset !important;
+}
+
 .reviews-wrap {
   display: flex;
   justify-content: center;
   border-radius: 16px;
   padding: 32px;
   width: 320px;
-  height: auto; /*to ask about this*/
+  min-height: 296px !important;
   background-color: #e4e5e6;
 }
 

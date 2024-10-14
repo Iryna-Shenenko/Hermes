@@ -4,10 +4,11 @@ import { Navigation, Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
+import "izitoast";
+import iziToast from "izitoast";
 
 const carousel = document.querySelector(".reviews-list");
 const reviewsSection = document.querySelector("#reviews");
-const reviewsTitle = document.querySelector(".reviews-title");
 
 const breakpoints = {
   mobile: 320,
@@ -23,10 +24,10 @@ const swiper = new Swiper(".swiper", {
   navigation: {
     nextEl: ".nav-arrow-next",
     prevEl: ".nav-arrow-prev",
-    enabled: true, // Enable navigation
+    enabled: true,
   },
   keyboard: {
-    enabled: true, // Enable keyboard navigation
+    enabled: true,
   },
 });
 
@@ -80,8 +81,15 @@ function checkIfInViewport() {
 }
 
 function handleError(message) {
-  reviewsTitle.textContent = message;
-  alert("An error occurred while fetching reviews. Please try again later.");
+  // reviewsTitle.textContent = message;
+  carousel.innerHTML = `<p class="not-found">${message}</p>`;
+  // alert("An error occurred while fetching reviews. Please try again later.");
+  iziToast.show({
+    message: `❌ Sorry, due to an error no reviews were fetched.`,
+    position: "topRight",
+    backgroundColor: "#F44336",
+    messageColor: "#fff",
+  });
 }
 
 window.addEventListener("scroll", checkIfInViewport);
