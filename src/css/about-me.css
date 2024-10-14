@@ -5,21 +5,22 @@
   line-height: 64px;
   text-transform: uppercase;
   color: #292929;
-text-align: right;
+  text-align: right;
 }
 
 .title span {
   color: #00b068;
 }
 
-.main-text-name{
+.main-text-name {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 32px;
   line-height: 1.25;
-  color: #292929;}
+  color: #292929;
+}
 
-.text-bio{
+.text-bio {
   font-family: "Poppins", sans-serif;
   font-weight: 300;
   font-size: 16px;
@@ -28,13 +29,13 @@ text-align: right;
 }
 
 .point-list {
-padding-left: 20px;
-margin: 0;
-list-style: disc;
+  padding-left: 20px;
+  margin: 0;
+  list-style: disc;
 }
 
-.point-items::marker{
-color: rgb(4, 159,4);
+.point-items::marker {
+  color: rgb(4, 159, 4);
 }
 
 
@@ -43,7 +44,7 @@ color: rgb(4, 159,4);
   .about-me {
     margin: 0 auto;
     padding: 0 20px 0 20px;
-    margin-bottom: 80px;
+
   }
 
   .title {
@@ -110,7 +111,6 @@ color: rgb(4, 159,4);
   .about-me {
     margin: 0 auto;
     padding: 0 32px 0 32px;
-    margin-bottom: 124px;
   }
 
   .title {
@@ -145,12 +145,12 @@ color: rgb(4, 159,4);
   }
 
   .about-img-container {
-  display: flex;
-  display: block;
+    display: flex;
+    display: block;
   }
 
   .point-item-container {
-  display: flex;
+    display: flex;
   }
 
   .img-about-me {
@@ -201,21 +201,20 @@ color: rgb(4, 159,4);
   .about-me {
     margin: 0 auto;
     padding: 0 32px 0 32px;
-    margin-bottom: 164px;
   }
 
-    .container-about-me {
-      position: relative;
-      padding-top: 116px;
-  
-      background-image: url('../img/about-me/about-me-background.png');
-      background-image: image-set(url('../img/about-me/about-me-background.png') 1x,
-          url('../img/about-me/about-me-background-2x.png') 2x);
-      background-repeat: no-repeat;
-      background-position: right center;
-      background-size: 526px 408px;
-    }
-  
+  .container-about-me {
+    position: relative;
+    padding-top: 116px;
+
+    background-image: url('../img/about-me/about-me-background.png');
+    background-image: image-set(url('../img/about-me/about-me-background.png') 1x,
+        url('../img/about-me/about-me-background-2x.png') 2x);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 526px 408px;
+  }
+
 
   .img-about-me {
     border-radius: 16px;
