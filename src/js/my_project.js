@@ -1,42 +1,42 @@
 const images = [
     {
-        picture: "../img/my-projects/myprojects-1.png",
+        picture: "/img/my-projects/myprojects-1.jpg",
         text: "power pulse webservice",
     },
     {
-        picture: "../img/my-projects/myprojects-2.png",
+        picture: "/img/my-projects/myprojects-2.jpg",
         text: "mimino website",
     },
     {
-        picture: "../img/my-projects/myprojects-3.png",
+        picture: "/img/my-projects/myprojects-3.jpg",
         text: "vyshyvanka vibes Landing",
     },
     {
-        picture: "../img/my-projects/myprojects-4.png",
+        picture: "/img/my-projects/myprojects-4.jpg",
         text: "green harvest online store",
     },
     {
-        picture: "../img/my-projects/myprojects-5.png",
+        picture: "/img/my-projects/myprojects-5.jpg",
         text: "wallet webservice",
     },
     {
-        picture: "../img/my-projects/myprojects-6.png",
+        picture: "/img/my-projects/myprojects-6.jpg",
         text: "chego jewelry website",
     },
     {
-        picture: "../img/my-projects/myprojects-7.png",
+        picture: "/img/my-projects/myprojects-7.jpg",
         text: "energy flow webservice",
     },
     {
-        picture: "../img/my-projects/myprojects-8.png",
+        picture: "/img/my-projects/myprojects-8.jpg",
         text: "fruitbox online store",
     },
     {
-        picture: "../img/my-projects/myprojects-9.png",
+        picture: "/img/my-projects/myprojects-9.jpg",
         text: "English excellence webservice",
     },
     {
-        picture: "../img/my-projects/myprojects-10.png",
+        picture: "/img/my-projects/myprojects-10.jpg",
         text: "starlight studio landing page",
     },
 ];
