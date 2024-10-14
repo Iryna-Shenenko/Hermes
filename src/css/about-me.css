@@ -101,7 +101,7 @@
   }
 
   .about-me .container {
-    background-image: url(../img/about-me/about-bg.png);
+    background-image: url(/img/about-me/about-bg.png);
     background-repeat: no-repeat;
     background-size: 336px 252px;
     background-position: right 860px;
@@ -148,7 +148,7 @@
   }
 
   .about-img-container {
-    width: 1000px;
+    width: 768px;
     margin-left: auto;
   }
 
