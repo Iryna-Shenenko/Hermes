@@ -135,3 +135,11 @@
     } */
 
 }
+
+.dark-theme .icon {
+    background: #204136;
+}
+
+.dark-theme .bnf-icons {
+    fill: #14C57C;
+}

@@ -110,7 +110,6 @@
   .img-container {
     display: flex;
     gap: 32px;
-    justify-content: space-between;
     margin-bottom: 60px;
   }
 
@@ -160,6 +159,14 @@
     padding: 0px 32px;
     width: 768px;
     height: 1264px;
+  }
+
+  .bio-container p:nth-child(1) {
+    max-width: 336px;
+  }
+
+  .bio-container p:nth-child(2) {
+    max-width: 330px;
   }
 }
 
