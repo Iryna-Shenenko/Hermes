@@ -139,13 +139,14 @@ align-items: center;
 /* Modal */
 .modal-wt {
 position: fixed;
-width: 100%;
-height: 100%;
 background: rgba(41, 41, 41, 0.8);
 top: 0;
+left: 0;
 z-index: 998;
 opacity: 0;
 visibility: hidden;
+display: block;
+width: 100%;
 }
 
 .is-open{
@@ -161,7 +162,7 @@ width: 320px;
 height: 328px;
 border: 1px solid #e4e5e6;
 border-radius: 16px;
-padding: 48px 48px;
+padding: 48px;
 background-color: #f0f0f0;
 transform: translate(-50%, -50%);
 }
@@ -215,8 +216,8 @@ color: #292929;
 @media screen and (min-width: 768px) {
 
     .work-together-container  {
-        background-image: url(../img/work-together/wt_x1_tablet.png),
-        url(../img/work-together/wt_x2_tablet.png);
+        background-image: url(/img/work-together/wt_x1_tablet.png),
+        url(/img/work-together/wt_x2_tablet.png);
         background-size: 336px;
         background-repeat: no-repeat;
         background-position: top right;
@@ -244,8 +245,8 @@ color: #292929;
     @media only screen and (-webkit-min-device-pixel-ratio: 2),
     only screen and (min-resolution: 192dpi) {
         .work-together-container{
-            background-image: url(../img/work-together/wt_x2_tablet.png),
-            url(../img/work-together/wt_x1_tablet.png);
+            background-image: url(/img/work-together/wt_x2_tablet.png),
+            url(/img/work-together/wt_x1_tablet.png);
         }
     }
 
@@ -275,8 +276,8 @@ color: #292929;
 @media screen and (min-width: 1280px) {
 
     .work-together-container {
-        background-image: url(../img/work-together/wt_x1_desktop.png),
-        url(../img/work-together/wt_x2_desktop.png);
+        background-image: url(/img/work-together/wt_x1_desktop.png),
+        url(/img/work-together/wt_x2_desktop.png);
         background-size: 526px;
         background-repeat: no-repeat;
         background-position: top right;
@@ -286,8 +287,8 @@ color: #292929;
     @media only screen and (-webkit-min-device-pixel-ratio: 2),
     only screen and (min-resolution: 192dpi) {
         .work-together-container .container {
-            background-image: url(../img/work-together/wt_x2_desktop.png),
-            url(../img/work-together/wt_x1_desktop.png);
+            background-image: url(/img/work-together/wt_x2_desktop.png),
+            url(/img/work-together/wt_x1_desktop.png);
         }
     }
 
