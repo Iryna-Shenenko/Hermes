@@ -1,38 +1,25 @@
-.dark-theme .about-me p,
-.dark-theme .about-me h2,
-.dark-theme .about-me h3 {
-  color: white;
-}
-
-.about-me .title {
+.title {
   font-family: "Impact";
   font-weight: 400;
   font-size: 52px;
   line-height: 64px;
   text-transform: uppercase;
   color: #292929;
-  margin-bottom: 40px;
+text-align: right;
 }
 
-.about-me .title span {
+.title span {
   color: #00b068;
 }
 
-.about-me .img-container img {
-  width: 100%;
-  margin-bottom: 40px;
-  border-radius: 20px;
-}
-
-.about-me h3 {
+.main-text-name{
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 32px;
   line-height: 1.25;
-  margin-bottom: 32px;
-}
+  color: #292929;}
 
-.bio-container p {
+.text-bio{
   font-family: "Poppins", sans-serif;
   font-weight: 300;
   font-size: 16px;
@@ -40,138 +27,218 @@
   color: #292929;
 }
 
-.bio-container p:nth-child(1) {
-  margin-bottom: 24px;
-
+.point-list {
+padding-left: 20px;
+margin: 0;
+list-style: disc;
 }
 
-.bio-container {
-  margin-bottom: 40px;
-  width: 336px;
-  height: 680px;
+.point-items::marker{
+color: rgb(4, 159,4);
 }
 
-/* .point-container {
-} */
 
-.point-container p {
-  position: relative;
-  font-family: "Poppins", sans-serif;
-  font-weight: 300;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.03em;
-  color: #292929;
-  padding-left: 32px;
-  width: 330px;
+@media screen and (max-width:360px) {
+
+  .about-me {
+    margin: 0 auto;
+    padding: 0 20px 0 20px;
+    margin-bottom: 80px;
+  }
+
+  .title {
+    width: 217px;
+    height: 64px;
+  }
+
+  .img-about-me {
+    border-radius: 16px;
+    width: 320px;
+    height: 374px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .text-bio {
+
+    max-width: 320px;
+    padding: 12px 0;
+  }
+
+  .main-text-name {
+    padding-top: 28px;
+    padding-bottom: 20px;
+  }
 }
 
-.point-container p::before {
-  position: absolute;
-  left: 10px;
-  top: 10px;
-  content: "";
-  border-radius: 1px;
-  width: 4px;
-  height: 4px;
+@media screen and (min-width:360px) {
+  .about-me {
+    margin: 0 auto;
+    padding: 0 20px 0 20px;
+    margin-bottom: 80px;
+  }
 
-  background: #00b068;
+  .title {
+    width: 217px;
+    height: 64px;
+
+  }
+
+  .img-about-me {
+    border-radius: 16px;
+    width: 320px;
+    height: 374px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .text-bio {
+
+    width: 320px;
+    padding: 12px 0;
+  }
+
+  .main-text-name {
+    padding-top: 28px;
+    padding-bottom: 20px;
+
+  }
 }
 
-.point-desc p:not(:last-child) {
-  margin-bottom: 12px;
-}
+@media screen and (min-width:768px) {
 
-.point-item-container .point-container:not(:last-child) {
-  margin-bottom: 40px;
-}
+  .about-me {
+    margin: 0 auto;
+    padding: 0 32px 0 32px;
+    margin-bottom: 124px;
+  }
 
-@media (min-width: 768px) {
-  .about-me .img-container img {
+  .title {
+
+    font-family: "Impact", sans-serif;
+    font-weight: 400;
+    font-size: 108px;
+
+    /* line-height: 124px; */
+    line-height: 115%;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    text-align: right;
+    color: #292929;
+
+    width: 447px;
+    height: 124px;
+
+  }
+
+  .title span {
+    font-family: "Impact", sans-serif;
+    font-weight: 400;
+    font-size: 108px;
+
+    /* line-height: 124px; */
+    line-height: 115%;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    text-align: right;
+    color: #00b068;
+  }
+
+  .about-img-container {
+  display: flex;
+  display: block;
+  }
+
+  .point-item-container {
+  display: flex;
+  }
+
+  .img-about-me {
+    border-radius: 16px;
     width: 336px;
     height: 392px;
-    margin-bottom: 0;
-    flex-shrink: 0;
-    align-self: self-end;
+    padding: 408px 32px 20px 0;
   }
 
-  .about-text {
+  .main-text-name {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+
+    /* line-height: 48px; */
+    line-height: 133%;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    color: #292929;
+
+    padding-top: 40px;
+    padding-bottom: 32px;
+  }
+
+  .text-bio {
     width: 336px;
-    height: 600px;
-  }
-
-  .about-me .container {
-    background-image: url(/img/about-me/about-bg.png);
-    background-repeat: no-repeat;
-    background-size: 336px 252px;
-    background-position: right 860px;
+    padding-top: 0;
+    padding-bottom: 24px;
   }
 
   .img-container {
     display: flex;
-    gap: 32px;
-    margin-bottom: 60px;
+    flex: 1;
   }
 
-  .bio-container {
-    margin-bottom: 80px;
+  .point-items-text {
+    padding-bottom: 16px;
   }
 
-  .bio-container p {
-    width: 350px;
+  .point-container {
+    margin-left: 32px;
   }
 
-  .about-me .title {
-    font-size: 108px;
-    line-height: 124px;
-    margin-bottom: 40px;
-    width: auto;
+}
+
+@media screen and (min-width: 1280px) {
+
+  .about-me {
+    margin: 0 auto;
+    padding: 0 32px 0 32px;
+    margin-bottom: 164px;
+  }
+
+    .container-about-me {
+      position: relative;
+      padding-top: 116px;
+  
+      background-image: url('../img/about-me/about-me-background.png');
+      background-image: image-set(url('../img/about-me/about-me-background.png') 1x,
+          url('../img/about-me/about-me-background-2x.png') 2x);
+      background-repeat: no-repeat;
+      background-position: right center;
+      background-size: 526px 408px;
+    }
+  
+
+  .img-about-me {
+    border-radius: 16px;
+    width: 384px;
+    height: 448px;
+    padding: 312px 136px 40px 240px;
+
   }
 
   .point-item-container {
-    display: flex;
-    justify-content: space-between;
+    padding-left: 240px;
   }
 
-  .about-me h3 {
-    font-size: 36px;
-    line-height: 1.33333;
-  }
-
-  .about-me .img-container img {
-    width: 384px;
-    height: 448px;
-    margin-bottom: 0;
-    flex-shrink: 0;
-    align-self: self-end;
-  }
-
-  .about-img-container {
-    width: 768px;
-    margin-left: auto;
-  }
-
-  .bio-container p {
+  .text-bio {
     width: 488px;
   }
 
-  .about-me {
-    padding: 0px 32px;
-    width: 768px;
-    height: 1264px;
+  .point-items-text {
+    width: 384px;
+
   }
 
-  .bio-container p:nth-child(1) {
-    max-width: 336px;
-  }
-
-  .bio-container p:nth-child(2) {
-    max-width: 330px;
-  }
-}
-
-@media (min-width: 1280px) {
-  .bio-container {
-    margin-bottom: 232px;
+  .point-container {
+    margin-left: 136px;
   }
 }
