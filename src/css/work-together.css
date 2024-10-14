@@ -1,5 +1,3 @@
-
-
 .section-heading {
     font: 400 52px / 1.23077 "Impact", sans-serif;
     letter-spacing: 0.03em;
@@ -13,7 +11,7 @@
     color: #00b068;
 }
 
-.text-content{
+.text-content {
     font: 400 18px / 1.55556 "Poppins", sans-serif;
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -21,7 +19,7 @@
     margin-bottom: 32px;
 }
 
-.contacts-section{
+.contacts-section {
     display: flex;
     flex-direction: column;
     gap: 16px;
@@ -30,10 +28,10 @@
     color: #292929;
     margin-bottom: 40px;
     cursor: pointer;
- 
- }
 
-.svg-icon{
+}
+
+.svg-icon {
     margin-right: 16px;
 }
 
@@ -43,7 +41,7 @@
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contact-form{
+.contact-form {
     display: flex;
     flex-direction: column;
     gap: 32px;
@@ -52,7 +50,7 @@
 .email-input {
     box-sizing: border-box;
     cursor: pointer;
-    border: none; 
+    border: none;
     border-radius: 8px;
     width: 100%;
     padding: 16px;
@@ -74,7 +72,7 @@
     background-color: #e4e5e6;
     padding: 16px;
     font: 300 16px / 1.5 "Poppins", sans-serif;
-    color: #292929;      
+    color: #292929;
 }
 
 .email-input::placeholder,
@@ -99,96 +97,97 @@
 
 .contact-btn:hover,
 .contact-btn:focus {
-    background-color: #009156;;
+    background-color: #009156;
+    ;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
 @media screen and (min-width: 768px) {
 
-.work-together-container .container {
-    background-image: url(../img/work-together/wt_x1_tablet.png);
-    background-size: 336px;
-    background-repeat: no-repeat;
-    background-position: top right;
+    .work-together-container .container {
+        background-image: url(../img/work-together/wt_x1_tablet.png);
+        background-size: 336px;
+        background-repeat: no-repeat;
+        background-position: top right;
     }
-        
-@media only screen and (-webkit-min-device-pixel-ratio: 2),
+
+    @media only screen and (-webkit-min-device-pixel-ratio: 2),
     only screen and (min-resolution: 192dpi) {
-.work-together-container .container {
-    background-image: url(../img/work-together/wt_x2_tablet.png);
+        .work-together-container .container {
+            background-image: url(../img/work-together/wt_x2_tablet.png);
+        }
     }
+
+    .contacts-section {
+        display: flex;
+        flex-direction: row;
+        gap: 32px;
     }
 
-.contacts-section{
-    display: flex;
-    flex-direction: row;
-    gap: 32px;
-}
+    .contact-btn {
+        width: 173px;
+    }
 
-.contact-btn{
-    width: 173px;
-}
+    .text-content {
+        width: 488px;
+    }
 
-.text-content{
-    width: 488px;
-}
-
-h1.section-heading,
-.heading-green{
-    font: 400 108px / 1.14815 "Impact", sans-serif;
-    letter-spacing: 0.02em;
-    width: 507px;
-}
+    h1.section-heading,
+    .heading-green {
+        font: 400 108px / 1.14815 "Impact", sans-serif;
+        letter-spacing: 0.02em;
+        width: 507px;
+    }
 
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1280px) {
 
-.work-together-container .container {
-    background-image: url(../img/work-together/wt_x1_desktop.png);
-    background-size: 526px;
-    background-repeat: no-repeat;
-    background-position: top right;
-}
-        
-@media only screen and (-webkit-min-device-pixel-ratio: 2),
+    .work-together-container .container {
+        background-image: url(../img/work-together/wt_x1_desktop.png);
+        background-size: 526px;
+        background-repeat: no-repeat;
+        background-position: top right;
+    }
+
+    @media only screen and (-webkit-min-device-pixel-ratio: 2),
     only screen and (min-resolution: 192dpi) {
-.work-together-container .container {
-    background-image: url(../img/work-together/wt_x2_desktop.png);
-}
-}
+        .work-together-container .container {
+            background-image: url(../img/work-together/wt_x2_desktop.png);
+        }
+    }
 
 
-.desktop-present{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 120px;
-}
+    .desktop-present {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 120px;
+    }
 
-.contacts-section{
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-    font: 300 16px / 1.5 "Poppins", sans-serif;
-    letter-spacing: 0.03em;
-    color: #292929;
-    margin-bottom: 0px;
-    cursor: pointer;
-}
+    .contacts-section {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        font: 300 16px / 1.5 "Poppins", sans-serif;
+        letter-spacing: 0.03em;
+        color: #292929;
+        margin-bottom: 0px;
+        cursor: pointer;
+    }
 
-.desctop-row{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
+    .desctop-row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
 
-.contact-form{
-    width: 592px;
-    justify-content: space-between;
- }
+    .contact-form {
+        width: 592px;
+        justify-content: space-between;
+    }
 
 
 
