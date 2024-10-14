@@ -42,10 +42,13 @@
 
 .bio-container p:nth-child(1) {
   margin-bottom: 24px;
+
 }
 
 .bio-container {
   margin-bottom: 40px;
+  width: 336px;
+  height: 680px;
 }
 
 /* .point-container {
@@ -92,6 +95,11 @@
     align-self: self-end;
   }
 
+  .about-text {
+    width: 336px;
+    height: 600px;
+  }
+
   .about-me .container {
     background-image: url(../img/about-me/about-bg.png);
     background-repeat: no-repeat;
@@ -101,6 +109,7 @@
 
   .img-container {
     display: flex;
+    gap: 32px;
     justify-content: space-between;
     margin-bottom: 60px;
   }
@@ -145,6 +154,12 @@
 
   .bio-container p {
     width: 488px;
+  }
+
+  .about-me {
+    padding: 0px 32px;
+    width: 768px;
+    height: 1264px;
   }
 }
 
