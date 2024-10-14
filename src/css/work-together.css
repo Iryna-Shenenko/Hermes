@@ -1,0 +1,194 @@
+.section-heading {
+    font: 400 52px / 1.23077 "Impact", sans-serif;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #292929;
+    margin-bottom: 40px;
+}
+
+.heading-green {
+    font: 400 52px / 1.23077 "Impact", sans-serif;
+    color: #00b068;
+}
+
+.text-content {
+    font: 400 18px / 1.55556 "Poppins", sans-serif;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #292929;
+    margin-bottom: 32px;
+}
+
+.contacts-section {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    font: 300 16px / 1.5 "Poppins", sans-serif;
+    letter-spacing: 0.03em;
+    color: #292929;
+    margin-bottom: 40px;
+    cursor: pointer;
+
+}
+
+.svg-icon {
+    margin-right: 16px;
+}
+
+.contacts-section>li:hover,
+.contacts-section>li:focus {
+    color: #00b068;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.email-input {
+    box-sizing: border-box;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    width: 100%;
+    padding: 16px;
+    outline: transparent;
+    background-color: #e4e5e6;
+    font: 300 16px / 1.5 "Poppins", sans-serif;
+    letter-spacing: 0.03em;
+    color: #292929;
+}
+
+.message-text {
+    box-sizing: border-box;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    width: 100%;
+    resize: none;
+    outline: transparent;
+    background-color: #e4e5e6;
+    padding: 16px;
+    font: 300 16px / 1.5 "Poppins", sans-serif;
+    color: #292929;
+}
+
+.email-input::placeholder,
+.email-text::placeholder {
+    color: #292929;
+}
+
+.contact-btn {
+    display: block;
+    font: 500 16px / 1.5 "Poppins", sans-serif;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #f0f0f0;
+    text-align: center;
+    border-radius: 8px;
+    padding: 12px 24px;
+    width: 100%;
+    background-color: #00b068;
+    border: none;
+    text-transform: uppercase;
+}
+
+.contact-btn:hover,
+.contact-btn:focus {
+    background-color: #009156;
+    ;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+@media screen and (min-width: 768px) {
+
+    .work-together-container .container {
+        background-image: url(../img/work-together/wt_x1_tablet.png);
+        background-size: 336px;
+        background-repeat: no-repeat;
+        background-position: top right;
+    }
+
+    @media only screen and (-webkit-min-device-pixel-ratio: 2),
+    only screen and (min-resolution: 192dpi) {
+        .work-together-container .container {
+            background-image: url(../img/work-together/wt_x2_tablet.png);
+        }
+    }
+
+    .contacts-section {
+        display: flex;
+        flex-direction: row;
+        gap: 32px;
+    }
+
+    .contact-btn {
+        width: 173px;
+    }
+
+    .text-content {
+        width: 488px;
+    }
+
+    h1.section-heading,
+    .heading-green {
+        font: 400 108px / 1.14815 "Impact", sans-serif;
+        letter-spacing: 0.02em;
+        width: 507px;
+    }
+
+}
+
+@media screen and (min-width: 1280px) {
+
+    .work-together-container .container {
+        background-image: url(../img/work-together/wt_x1_desktop.png);
+        background-size: 526px;
+        background-repeat: no-repeat;
+        background-position: top right;
+    }
+
+    @media only screen and (-webkit-min-device-pixel-ratio: 2),
+    only screen and (min-resolution: 192dpi) {
+        .work-together-container .container {
+            background-image: url(../img/work-together/wt_x2_desktop.png);
+        }
+    }
+
+
+    .desktop-present {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 120px;
+    }
+
+    .contacts-section {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        font: 300 16px / 1.5 "Poppins", sans-serif;
+        letter-spacing: 0.03em;
+        color: #292929;
+        margin-bottom: 0px;
+        cursor: pointer;
+    }
+
+    .desctop-row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .contact-form {
+        width: 592px;
+        justify-content: space-between;
+    }
+
+
+
+}

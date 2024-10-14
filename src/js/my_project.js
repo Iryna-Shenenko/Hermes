@@ -1,0 +1,110 @@
+const images = [
+    {
+        picture: "../img/my-projects/myprojects-1.png",
+        text: "power pulse webservice",
+    },
+    {
+        picture: "../img/my-projects/myprojects-2.png",
+        text: "mimino website",
+    },
+    {
+        picture: "../img/my-projects/myprojects-3.png",
+        text: "vyshyvanka vibes Landing",
+    },
+    {
+        picture: "../img/my-projects/myprojects-4.png",
+        text: "green harvest online store",
+    },
+    {
+        picture: "../img/my-projects/myprojects-5.png",
+        text: "wallet webservice",
+    },
+    {
+        picture: "../img/my-projects/myprojects-6.png",
+        text: "chego jewelry website",
+    },
+    {
+        picture: "../img/my-projects/myprojects-7.png",
+        text: "energy flow webservice",
+    },
+    {
+        picture: "../img/my-projects/myprojects-8.png",
+        text: "fruitbox online store",
+    },
+    {
+        picture: "../img/my-projects/myprojects-9.png",
+        text: "English excellence webservice",
+    },
+    {
+        picture: "../img/my-projects/myprojects-10.png",
+        text: "starlight studio landing page",
+    },
+];
+
+const listEl = document.querySelector(".myprojects-list-galery");
+const buttonLoad = document.querySelector(".myprojects-button-load");
+const BASE_URL = "https://github.com/Iryna-Shenenko/Hermes";
+
+let visibleImages = 3;
+
+function createImageCards(images) {
+    return images.map(image => `
+    <li class="myprojects-gallery-item">
+    <div>
+          <img class="myprojects-photo-card" src="${image.picture}" alt="${image.text}" />
+        </div>
+        <div class="myprojects-subtitle">
+          <p class="myprojects-subtitle-text">React, JavaScript, Node JS, Git</p>
+          <div class="myprojects-info">
+            <h3 class="myprojects-info-title">${image.text}</h3>
+            <a href="${BASE_URL}">
+            <button class="myprojects-info-button">visit
+                <svg width="24" height="24">
+                        <use href="../img/my-projects/myprojects.svg#icon-visit"></use>
+                </svg>
+            </button>
+            </a>
+        </div>
+    </div>
+    </li>
+  `).join('');
+};
+
+function renderInitialImages() {
+    const initialImages = images.slice(0, visibleImages);
+    listEl.innerHTML = createImageCards(initialImages);
+}
+
+
+function loadMoreImages() {
+  const originalButtonText = buttonLoad.querySelector('span');
+  if (originalButtonText) {
+    originalButtonText.textContent = "Loading...";
+  }
+
+  buttonLoad.disabled = true;
+
+  setTimeout(() => {
+    const remainingImages = images.length - visibleImages;
+    
+    const loadCount = remainingImages >= 3 ? 3 : remainingImages;
+    visibleImages += loadCount;
+
+    const newImages = images.slice(visibleImages - loadCount, visibleImages);
+    listEl.insertAdjacentHTML('beforeend', createImageCards(newImages));
+
+    if (originalButtonText) {
+      originalButtonText.textContent = "Load More";
+    }
+
+    buttonLoad.disabled = false;
+
+    if (visibleImages >= images.length) {
+      buttonLoad.style.display = 'none'; 
+    }
+  }, 1000);
+}
+
+renderInitialImages();
+
+buttonLoad.addEventListener("click", loadMoreImages);

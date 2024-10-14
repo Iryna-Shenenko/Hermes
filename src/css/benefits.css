@@ -15,7 +15,6 @@
 
 .benefits-title span {
     color: #00b068;
-    ;
     font-family: Impact;
     font-size: 52px;
     font-style: normal;
@@ -71,10 +70,6 @@
 }
 
 @media only screen and (min-width: 768px) {
-
-    .benefits-section {
-        /* padding: 124px 0; */
-    }
 
     .benefits-title {
         font-size: 108px;
@@ -182,4 +177,12 @@
         grid-column: 3 / 4;
         grid-row: 2;
     }
+}
+
+.dark-theme .icon {
+    background: #204136;
+}
+
+.dark-theme .bnf-icons {
+    fill: #14C57C;
 }

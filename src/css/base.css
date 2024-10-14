@@ -19,14 +19,90 @@
 body {
   display: flex;
   flex-direction: column;
-  min-width: 100vw;
   min-height: 100vh;
   margin: 0;
+  background-color: #f0f0f0;
+  color: #333333;
+  stroke: #292929;
 }
+
+body.dark-theme {
+  background-color: #1E2023;
+  color: #fff;
+  stroke: #fff;
+}
+
+.dark-theme h2,
+.dark-theme p,
+.dark-theme button {
+  color: #fff;
+}
+
 
 main {
   flex-grow: 1;
 }
+
 main:has(.back-link) {
   text-align: center;
+}
+
+
+/* Hero */
+.dark-theme .hero-title-first,
+.dark-theme .hero-title,
+.dark-theme .hero-p,
+.dark-theme .hero-link {
+  color: #fff;
+}
+
+.dark-theme .hero-title {
+  color: #00B068;
+}
+
+.dark-theme .hero-decor-div {
+  background: #14C57C;
+}
+
+.dark-theme .hero-list {
+  background: #2A2D32;
+}
+
+/* Tech-skills */
+.dark-theme .running-line {
+  background: #204136;
+}
+
+.dark-theme .dot {
+  background: #14C57C;
+}
+
+.dark-theme .second-line {
+  background: #2A2D32;
+}
+
+.dark-theme .black-dot {
+  background: #F0F0F0;
+}
+
+.dark-theme .second-text {
+  color: #14C57C;
+}
+
+/* Benefits */
+.dark-theme .benefits-main-title-part {
+  color: #00B068;
+}
+
+/* FAQ */
+.dark-theme .faq-section .title {
+  color: #fff;
+}
+
+.dark-theme .ac.js-enabled.is-active {
+  background: #204136;
+}
+
+.dark-theme .ac {
+  background: transparent;
 }
