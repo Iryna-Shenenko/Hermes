@@ -1,0 +1,178 @@
+.dark-theme .about-me p,
+.dark-theme .about-me h2,
+.dark-theme .about-me h3 {
+  color: white;
+}
+
+.about-me .title {
+  font-family: "Impact";
+  font-weight: 400;
+  font-size: 52px;
+  line-height: 64px;
+  text-transform: uppercase;
+  color: #292929;
+  margin-bottom: 40px;
+}
+
+.about-me .title span {
+  color: #00b068;
+}
+
+.about-me .img-container img {
+  width: 100%;
+  margin-bottom: 40px;
+  border-radius: 20px;
+}
+
+.about-me h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 1.25;
+  margin-bottom: 32px;
+}
+
+.bio-container p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #292929;
+}
+
+.bio-container p:nth-child(1) {
+  margin-bottom: 24px;
+
+}
+
+.bio-container {
+  margin-bottom: 40px;
+  width: 336px;
+  height: 680px;
+}
+
+/* .point-container {
+} */
+
+.point-container p {
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  color: #292929;
+  padding-left: 32px;
+  width: 330px;
+}
+
+.point-container p::before {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  content: "";
+  border-radius: 1px;
+  width: 4px;
+  height: 4px;
+
+  background: #00b068;
+}
+
+.point-desc p:not(:last-child) {
+  margin-bottom: 12px;
+}
+
+.point-item-container .point-container:not(:last-child) {
+  margin-bottom: 40px;
+}
+
+@media (min-width: 768px) {
+  .about-me .img-container img {
+    width: 336px;
+    height: 392px;
+    margin-bottom: 0;
+    flex-shrink: 0;
+    align-self: self-end;
+  }
+
+  .about-text {
+    width: 336px;
+    height: 600px;
+  }
+
+  .about-me .container {
+    background-image: url(/img/about-me/about-bg.png);
+    background-repeat: no-repeat;
+    background-size: 336px 252px;
+    background-position: right 860px;
+  }
+
+  .img-container {
+    display: flex;
+    gap: 32px;
+    margin-bottom: 60px;
+  }
+
+  .bio-container {
+    margin-bottom: 80px;
+  }
+
+  .bio-container p {
+    width: 350px;
+  }
+
+  .about-me .title {
+    font-size: 108px;
+    line-height: 124px;
+    margin-bottom: 40px;
+    width: auto;
+  }
+
+  .point-item-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .about-me h3 {
+    font-size: 36px;
+    line-height: 1.33333;
+  }
+
+  .about-me .img-container img {
+    width: 384px;
+    height: 448px;
+    margin-bottom: 0;
+    flex-shrink: 0;
+    align-self: self-end;
+  }
+
+  .about-img-container {
+    width: 768px;
+    margin-left: auto;
+  }
+
+  .bio-container p {
+    width: 488px;
+  }
+
+  .about-me {
+    padding: 0px 32px;
+    width: 768px;
+    height: 1264px;
+  }
+
+  .bio-container p:nth-child(1) {
+    max-width: 336px;
+  }
+
+  .bio-container p:nth-child(2) {
+    max-width: 330px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .bio-container {
+    margin-bottom: 232px;
+  }
+
+}
