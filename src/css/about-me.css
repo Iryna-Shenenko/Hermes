@@ -38,6 +38,7 @@
 .point-items::marker {
   color: rgb(4, 159, 4);
 }
+
 .text-bio,
 .point-items-text {
   max-width: 100%;
@@ -64,7 +65,8 @@
     padding-top: 40px;
     padding-bottom: 40px;
   }
-/* 
+
+  /* 
   .text-bio {
 
     max-width: 320px;
@@ -159,7 +161,13 @@
     border-radius: 16px;
     width: 336px;
     height: 392px;
-    padding: 408px 32px 20px 0;
+    /* padding: 408px 32px 20px 0; */
+  }
+
+  .img-foto {
+    display: flex;
+    align-items: flex-end;
+    padding-right: 32px;
   }
 
   .main-text-name {
@@ -221,8 +229,14 @@
     border-radius: 16px;
     width: 384px;
     height: 448px;
-    padding: 312px 136px 40px 240px;
+    /* padding: 312px 136px 40px 240px; */
 
+  }
+
+  .img-foto {
+    display: flex;
+    align-items: flex-end;
+    padding-right: 32px;
   }
 
   .point-item-container {
