@@ -1,4 +1,4 @@
-.benefits-section {
+.benefits-container {
     padding-top: 80px;
 }
 
@@ -70,9 +70,10 @@
 }
 
 @media only screen and (min-width: 768px) {
-.benefits-section {
+    .benefits-section {
         padding-top: 124px;
     }
+
     .benefits-title {
         font-size: 108px;
         line-height: 1.2308;
