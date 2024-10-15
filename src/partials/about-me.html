@@ -1,4 +1,4 @@
-<section class="about-me" id="about-me">
+<section id="about-me">
   <div class="container-about-me container">
     <h2 class="title">About <span>me</span></h2>
 
@@ -6,16 +6,19 @@
       <div class="img-container">
         <picture class="img-foto">
           <source
-            media="(1280px)"
-            srcset="/img/about-me/foto desck.jpg, /img/about-me/foto desck@2x.jpg"
+            media="(min-width 1280px)"
+            srcset="/img/about-me/foto desck.jpg 1x, /img/about-me/foto desck@2x 2x.jpg"
+            type="image"
           />
           <source
             media="(min-width: 768px)"
-            srcset="/img/about-me/foto tablet.jpg, /img/about-me/foto tablet@2x.jpg"
+            srcset="/img/about-me/foto tablet.jpg 1x, /img/about-me/foto tablet@2x 2x.jpg"
+            type="image"
           />
           <source
             media="(max-width: 768px)"
-            srcset="/img/about-me/foto mobil.jpg, /img/about-me/foto mobil@2x.jpg"
+            srcset="/img/about-me/foto mobil.jpg 1x, /img/about-me/foto mobil@2x 2x.jpg"
+            type="image"
           />
           <img
             class="img-about-me"

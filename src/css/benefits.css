@@ -1,4 +1,4 @@
-.benefits-container{
+.benefits-container {
     padding-top: 80px;
 }
 
@@ -60,7 +60,7 @@
 /* Styles for Tablet devices */
 
 @media screen and (max-width: 767px) {
-    .benefits-container{
+    .benefits-container {
         padding-top: 80px;
     }
 
@@ -70,9 +70,10 @@
 }
 
 @media only screen and (min-width: 768px) {
-.benefits-container{
+    .benefits-section {
         padding-top: 124px;
     }
+
     .benefits-title {
         font-size: 108px;
         line-height: 1.2308;
@@ -116,8 +117,9 @@
 
 @media only screen and (min-width: 1280px) {
     .benefits-container {
-    padding-top: 164px;
-}
+        padding-top: 164px;
+    }
+
     .benefits-title {
         max-width: 682px;
         font-size: 108px;
