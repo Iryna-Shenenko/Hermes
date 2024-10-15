@@ -8,7 +8,7 @@
   text-align: right;
 }
 
-.dark-theme .title{
+.dark-theme .title {
   color: #fff;
 }
 
@@ -81,8 +81,9 @@
   .main-text-name {
     margin-bottom: 20px;
   }
-  .point-container{
-  margin-top: 28px;
+
+  .point-container {
+    margin-top: 28px;
   }
 }
 
@@ -91,7 +92,7 @@
     /* margin: 0 auto;
     padding: 0 20px 0 20px; */
     padding-top: 80px;
-   padding-bottom: 80px;
+    padding-bottom: 80px;
   }
 
   .about-me .title {
@@ -114,9 +115,10 @@
   } */
 
   .main-text-name {
-      margin-bottom: 20px;
+    margin-bottom: 20px;
   }
-  .point-container{
+
+  .point-container {
     margin-top: 28px;
   }
 }
@@ -125,10 +127,11 @@
   .text-bio.first {
     margin-bottom: 24px;
   }
+
   .about-me {
     /* margin: 0 auto; */
-  padding-top: 124px;
-  padding-bottom: 124px;
+    padding-top: 124px;
+    padding-bottom: 124px;
   }
 
   .about-me .title {
@@ -176,7 +179,8 @@
   .img-foto {
     display: flex;
     align-items: flex-end;
-    padding-right: 32px;
+    border-radius: 16px;
+
   }
 
   .main-text-name {
@@ -216,7 +220,7 @@
 @media screen and (min-width: 1280px) {
   .about-me {
     padding-top: 164px;
-  padding-bottom: 164px;
+    padding-bottom: 164px;
   }
 
   .bio-container {
@@ -228,10 +232,8 @@
     /* padding-top: 116px; */
 
     background-image: url("/img/about-me/about-me-background.png");
-    background-image: image-set(
-      url("/img/about-me/about-me-background.png") 1x,
-      url("/img/about-me/about-me-background-2x.png") 2x
-    );
+    background-image: image-set(url("/img/about-me/about-me-background.png") 1x,
+        url("/img/about-me/about-me-background-2x.png") 2x);
     background-repeat: no-repeat;
     background-position: right 800px;
     background-size: 526px 408px;
@@ -247,7 +249,7 @@
   .img-foto {
     display: flex;
     align-items: flex-end;
-    padding-right: 32px;
+    border-radius: 16px;
   }
 
   .point-item-container {

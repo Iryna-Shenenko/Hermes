@@ -3,7 +3,7 @@
 }
 
 /* mobil */
-#footer{
+#footer {
     padding-top: 40px;
     padding-bottom: 24px;
 }
@@ -48,6 +48,7 @@
     flex-direction: column;
     gap: 24px;
     margin-bottom: 40px;
+    margin-top: 40px;
 }
 
 .footer-social-link {
