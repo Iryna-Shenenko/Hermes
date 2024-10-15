@@ -2,7 +2,7 @@
   /* min-width: 320px; */
   /* margin-left: auto;
   margin-right: auto; */
-  padding-top: 164px;
+  padding-top: 80px;
 }
 
 .myprojects-title {
@@ -133,6 +133,7 @@
   .myprojects-conteiner {
     /* max-width: 768px; */
     /* padding: 0px 80px; */
+    padding-top: 124px;
   }
 
   .myprojects-title {
@@ -188,6 +189,7 @@
   .myprojects-conteiner {
     /* max-width: 1280px; */
     /* padding: 0px 164px; */
+    padding-top: 164px;
   }
 
   .myprojects-gallery-item {
