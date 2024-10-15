@@ -3,9 +3,10 @@
 /* Контейнер */
 .box-line {
   max-width: 100%;
-  margin: 0 auto;
-  /* padding-top: 164px; */
+}
 
+.tech-skills{
+  padding:0;
 }
 
 /* скрытый заговок секции */
@@ -22,10 +23,10 @@
 }
 
 /* Tech Skills */
-.tech-skills {
-  /* background-color: #f8f9fa; */
-  padding: 0;
-}
+/* .tech-skills { */
+/* background-color: #f8f9fa;  */
+/* padding: 0; */
+/* } */
 
 .running-line {
   overflow: hidden;
@@ -115,7 +116,7 @@
 /* Планшет */
 @media screen and (min-width: 768px) {
   .box-line {
-    /* max-width: 750px; */
+    max-width: 768px;
     /* padding: 0 30px; */
   }
 
@@ -144,10 +145,6 @@
     text-transform: uppercase;
     color: #00b068;
   }
-
-  .tech-skills {
-    /* padding: 124px 0 0 0; */
-  }
 }
 
 /* Десктоп */
@@ -155,10 +152,6 @@
   .box-line {
     max-width: 1280px;
     /* padding: 0 40px; */
-  }
-
-  .tech-skills {
-    /* padding: 164px 0 0 0; */
   }
 }
 

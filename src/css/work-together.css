@@ -27,6 +27,7 @@
 }
 
 .work-together-container {
+    padding-top: 80px;
     padding-bottom: 80px;
 }
 
@@ -254,6 +255,8 @@
         .work-together-container {
             background-image: url(/img/work-together/wt_x2_tablet.png),
                 url(/img/work-together/wt_x1_tablet.png);
+            padding-top: 124px;
+            padding-bottom: 124px;
         }
     }
 
@@ -288,6 +291,7 @@
         background-size: 526px;
         background-repeat: no-repeat;
         background-position: top right;
+        padding-top: 164px;
         padding-bottom: 164px;
     }
 

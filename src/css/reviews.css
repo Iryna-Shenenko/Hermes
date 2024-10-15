@@ -5,6 +5,7 @@
   /* margin-top: 80px;
   margin-bottom: 80px; */
   min-height: 464px;
+  padding-top: 80px;
 }
 
 .not-found {
@@ -124,11 +125,9 @@
 }
 
 @media screen and (min-width: 768px) {
-  .container {
-    max-width: 768px;
+  #reviews{
     padding-top: 124px;
   }
-
   .reviews-title {
     font-weight: 400;
     font-size: 108px;
@@ -154,14 +153,12 @@
 }
 
 @media only screen and (min-width: 1280px) {
-  .container {
-    max-width: 1280px;
-    padding-top: 164px;
-  }
 
   /* .nav-arrows {
     margin-top: -25px; */
-
+#reviews {
+    padding-top: 164px;
+  }
 
   .reviews-list {
     width: 1216px;

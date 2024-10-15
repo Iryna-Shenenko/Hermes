@@ -1,6 +1,6 @@
-/* .faq-section {
-  padding: 40px 0;
-} */
+.faq-section {
+  padding-top: 80px;
+}
 
 .faq-section .title {
   font-family: "Impact";
@@ -93,6 +93,10 @@
     width: 520px;
   }
 
+     .faq-section {
+       padding-top: 124px;
+     }
+
   .faq-section .ac .ac-trigger p {
     width: 600px;
     font-size: 20px;
@@ -115,6 +119,10 @@
       background-image: url(/img/faq/decor-bg-retina.png);
     }
   }
+
+    .faq-section {
+      padding-top: 164px;
+    }
 
   .accordion-container {
     width: 592px;

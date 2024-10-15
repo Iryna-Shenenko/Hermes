@@ -4,8 +4,12 @@
   font-size: 52px;
   line-height: 64px;
   text-transform: uppercase;
-  color: #292929;
+  /* color: #292929; */
   text-align: right;
+}
+
+.dark-theme .title{
+  color: #fff;
 }
 
 .title span {
@@ -50,8 +54,7 @@
 
 @media screen and (max-width: 360px) {
   .about-me {
-    /* margin: 0 auto; */
-    /* padding: 0 20px 0 20px; */
+    padding-bottom: 80px;
   }
 
   .about-me .title {
@@ -84,7 +87,7 @@
   .about-me {
     /* margin: 0 auto;
     padding: 0 20px 0 20px; */
-    /* margin-bottom: 80px; */
+   padding-bottom: 80px;
   }
 
   .about-me .title {
@@ -118,7 +121,8 @@
   }
   .about-me {
     /* margin: 0 auto; */
-    /* padding: 0 32px 0 32px; */
+padding-top: 124p;
+padding-bottom: 124px;
   }
 
   .about-me .title {
@@ -205,8 +209,8 @@
 
 @media screen and (min-width: 1280px) {
   .about-me {
-    /* margin: 0 auto;
-    padding: 0 32px 0 32px; */
+    padding-top: 164px;
+  padding-bottom: 164px;
   }
 
   .bio-container {
