@@ -60,7 +60,7 @@
 /* Styles for Tablet devices */
 
 @media screen and (max-width: 767px) {
-    .benefits-container {
+    .benefits-section {
         padding-top: 80px;
     }
 
@@ -116,10 +116,6 @@
 /* Styles for Desktop devices */
 
 @media only screen and (min-width: 1280px) {
-    .benefits-container {
-        padding-top: 164px;
-    }
-
     .benefits-title {
         max-width: 682px;
         font-size: 108px;

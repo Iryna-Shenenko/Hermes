@@ -88,13 +88,18 @@ body.dark-theme .header {
   top: 0;
   width: 100%;
   z-index: 2;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .container-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding:20px;
+}
+
+.menu-link{
+  padding-bottom: 10px;
 }
 
 .header-menu {
@@ -264,11 +269,11 @@ body.dark-theme .header {
     height: 20px;
   }
 
-  .container-header {
-    min-width: 768px;
-    padding:32px;
+  .header{
+    padding-top: 32px;
+    padding-bottom: 32px;
   }
-
+  
   .menu-header {
     position: absolute;
     width: 1px;
@@ -296,7 +301,4 @@ body.dark-theme .header {
   .theme-switch__control {
     margin-left: 560px;
   }
-    .container-header {
-      min-width: 1280px;
-    }
 }

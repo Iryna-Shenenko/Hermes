@@ -1,12 +1,12 @@
 .hero-info {
-  padding: 96px 20px 56px;
-  margin-top: 16px;
-  margin-bottom: 16px;
+  padding-left: 20px;
+  padding-right: 56px;
 }
 
 .hero {
   background-image: url('/img/hero/hero-bg-mob.png');
-}
+  padding-top: 96px;
+ }
 
 .hero-title-first {
   font-family: Impact;
@@ -101,12 +101,13 @@
 
 @media (min-width: 768px) {
   .hero-info {
-    margin: 16px 32px;
-    padding: 72px 0 64px;
+    padding-left: 32px;
+    padding-right: 32px;
   }
 
   .hero {
     background-image: url('/img/hero/hero-bg-tablet.png');
+    padding-top:88px;
   }
 
   .hero-title-first {
@@ -154,13 +155,9 @@
 }
 
 @media (min-width: 1280px) {
-  .hero-info {
-    padding-top: 168px;
-
-  }
-
   .hero {
     background-image: url(/img/hero/hero-bg-desk.png);
+    padding-top: 168px;
   }
 
   .hero-title-first {
@@ -180,7 +177,7 @@
   .hero-person {
     display: block;
     position: absolute;
-    top: 300px;
-    left: 643px;
+    top: 350px;
+    left: 720px;
   }
 }

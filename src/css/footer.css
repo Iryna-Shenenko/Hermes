@@ -2,13 +2,16 @@
     color: #fff;
 }
 
-
-
-
 /* mobil */
+#footer{
+    padding-top: 40px;
+    padding-bottom: 24px;
+}
+
 .footer-conteiner {
     border-top: 1px solid #e4e5e6;
-    padding: 40px 32px 24px 32px;
+    padding-left: 32px;
+    padding-right: 32px;
 
 }
 
