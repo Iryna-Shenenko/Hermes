@@ -1,4 +1,4 @@
-.title {
+.about-me .title {
   font-family: "Impact";
   font-weight: 400;
   font-size: 52px;
@@ -44,16 +44,13 @@
   max-width: 100%;
 }
 
-
-@media screen and (max-width:360px) {
-
+@media screen and (max-width: 360px) {
   .about-me {
     /* margin: 0 auto; */
     /* padding: 0 20px 0 20px; */
-
   }
 
-  .title {
+  .about-me .title {
     width: 217px;
     height: 64px;
   }
@@ -61,7 +58,7 @@
   .img-about-me {
     border-radius: 16px;
     width: 320px;
-    height: 374px;
+    /* height: 374px; */
     padding-top: 40px;
     padding-bottom: 40px;
   }
@@ -79,23 +76,22 @@
   }
 }
 
-@media screen and (min-width:360px) {
+@media screen and (min-width: 360px) {
   .about-me {
     /* margin: 0 auto;
     padding: 0 20px 0 20px; */
     /* margin-bottom: 80px; */
   }
 
-  .title {
+  .about-me .title {
     width: 217px;
     height: 64px;
-
   }
 
   .img-about-me {
     border-radius: 16px;
     width: 320px;
-    height: 374px;
+    /* height: 374px; */
     padding-top: 40px;
     padding-bottom: 40px;
   }
@@ -109,19 +105,16 @@
   .main-text-name {
     padding-top: 28px;
     padding-bottom: 20px;
-
   }
 }
 
-@media screen and (min-width:768px) {
-
+@media screen and (min-width: 768px) {
   .about-me {
     /* margin: 0 auto; */
     /* padding: 0 32px 0 32px; */
   }
 
-  .title {
-
+  .about-me .title {
     font-family: "Impact", sans-serif;
     font-weight: 400;
     font-size: 108px;
@@ -133,10 +126,9 @@
     color: #292929;
     width: 447px;
     height: 124px;
-
   }
 
-  .title span {
+  .about-me .title span {
     font-family: "Impact", sans-serif;
     font-weight: 400;
     font-size: 108px;
@@ -160,7 +152,7 @@
   .img-about-me {
     border-radius: 16px;
     width: 336px;
-    height: 392px;
+    /* height: 392px; */
     /* padding: 408px 32px 20px 0; */
   }
 
@@ -202,11 +194,9 @@
   .point-container {
     margin-left: 32px;
   }
-
 }
 
 @media screen and (min-width: 1280px) {
-
   .about-me {
     /* margin: 0 auto;
     padding: 0 32px 0 32px; */
@@ -216,21 +206,21 @@
     position: relative;
     padding-top: 116px;
 
-    background-image: url('/img/about-me/about-me-background.png');
-    background-image: image-set(url('/img/about-me/about-me-background.png') 1x,
-        url('/img/about-me/about-me-background-2x.png') 2x);
+    background-image: url("/img/about-me/about-me-background.png");
+    background-image: image-set(
+      url("/img/about-me/about-me-background.png") 1x,
+      url("/img/about-me/about-me-background-2x.png") 2x
+    );
     background-repeat: no-repeat;
     background-position: right center;
     background-size: 526px 408px;
   }
 
-
   .img-about-me {
     border-radius: 16px;
     width: 384px;
-    height: 448px;
+    /* height: 448px; */
     /* padding: 312px 136px 40px 240px; */
-
   }
 
   .img-foto {
@@ -249,11 +239,9 @@
 
   .point-items-text {
     width: 384px;
-
   }
 
   .point-container {
     margin-left: 136px;
   }
-
 }
