@@ -26,9 +26,9 @@
     color: #00b068;
 }
 
-.work-together-container {
-    padding-top: 80px;
-    padding-bottom: 80px;
+.work-together {
+    padding-top: 164px;
+    padding-bottom: 164px;
 }
 
 .section-heading {
@@ -105,7 +105,6 @@
     letter-spacing: 0.03em;
     color: #292929;
 }
-
 
 .message-text {
     box-sizing: border-box;
@@ -221,6 +220,10 @@
 
 
 @media screen and (min-width: 768px) {
+    .work-together{    
+        padding-top: 124px;
+        padding-bottom: 124px;
+    }
 
     .work-together-container {
         background-image: url(/img/work-together/wt_x1_tablet.png),
@@ -228,8 +231,6 @@
         background-size: 336px;
         background-repeat: no-repeat;
         background-position: top right;
-        padding-top: 124px;
-        padding-bottom: 124px;
     }
 
     .wt-modal {
@@ -256,8 +257,6 @@
         .work-together-container {
             background-image: url(/img/work-together/wt_x2_tablet.png),
                 url(/img/work-together/wt_x1_tablet.png);
-            padding-top: 124px;
-            padding-bottom: 124px;
         }
     }
 
@@ -285,15 +284,16 @@
 }
 
 @media screen and (min-width: 1280px) {
-
+.work-together {
+        padding-top: 164px;
+        padding-bottom: 164px;
+    }
     .work-together-container {
         background-image: url(/img/work-together/wt_x1_desktop.png),
             url(/img/work-together/wt_x2_desktop.png);
         background-size: 526px;
         background-repeat: no-repeat;
         background-position: top right;
-        padding-top: 164px;
-        padding-bottom: 164px;
     }
 
     @media only screen and (-webkit-min-device-pixel-ratio: 2),
