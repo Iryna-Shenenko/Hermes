@@ -1,4 +1,4 @@
-.benefits-section {
+.benefits-container {
     padding-top: 80px;
 }
 
@@ -60,7 +60,7 @@
 /* Styles for Tablet devices */
 
 @media screen and (max-width: 767px) {
-    .benefits-section {
+    .benefits-container {
         padding-top: 80px;
     }
 
@@ -113,14 +113,11 @@
 
 }
 
-
-
 /* Styles for Desktop devices */
 
-
 @media only screen and (min-width: 1280px) {
-    .benefits-section {
-        padding-top: 124px;
+    .benefits-container {
+        padding-top: 164px;
     }
 
     .benefits-title {
@@ -132,12 +129,12 @@
         font-size: 108px;
     }
 
-    .benefits-section .container {
+    .benefits-section {
         position: relative;
-        padding-top: 116px;
+        padding-top: 164px;
 
         background-image: url('/img/benefits/benefits_decor_desk.png');
-        background-image: image-set(url('../img/benefits/benefits_decor_desk@1x.png') 1x,
+        background-image: image-set(url('/img/benefits/benefits_decor_desk@1x.png') 1x,
                 url('/img/benefits/benefits_decor_desk@2x.png') 2x);
         background-repeat: no-repeat;
         background-position: right top;
