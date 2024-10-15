@@ -26,6 +26,7 @@
   font-size: 16px;
   line-height: 1.5;
   color: #292929;
+  width: auto;
 }
 
 .point-list {
@@ -37,13 +38,17 @@
 .point-items::marker {
   color: rgb(4, 159, 4);
 }
+.text-bio,
+.point-items-text {
+  max-width: 100%;
+}
 
 
 @media screen and (max-width:360px) {
 
   .about-me {
-    margin: 0 auto;
-    padding: 0 20px 0 20px;
+    /* margin: 0 auto; */
+    /* padding: 0 20px 0 20px; */
 
   }
 
@@ -59,12 +64,12 @@
     padding-top: 40px;
     padding-bottom: 40px;
   }
-
+/* 
   .text-bio {
 
     max-width: 320px;
     padding: 12px 0;
-  }
+  } */
 
   .main-text-name {
     padding-top: 28px;
@@ -74,9 +79,9 @@
 
 @media screen and (min-width:360px) {
   .about-me {
-    margin: 0 auto;
-    padding: 0 20px 0 20px;
-    margin-bottom: 80px;
+    /* margin: 0 auto;
+    padding: 0 20px 0 20px; */
+    /* margin-bottom: 80px; */
   }
 
   .title {
@@ -93,11 +98,11 @@
     padding-bottom: 40px;
   }
 
-  .text-bio {
+  /* .text-bio {
 
     width: 320px;
     padding: 12px 0;
-  }
+  } */
 
   .main-text-name {
     padding-top: 28px;
@@ -109,8 +114,8 @@
 @media screen and (min-width:768px) {
 
   .about-me {
-    margin: 0 auto;
-    padding: 0 32px 0 32px;
+    /* margin: 0 auto; */
+    /* padding: 0 32px 0 32px; */
   }
 
   .title {
@@ -118,14 +123,12 @@
     font-family: "Impact", sans-serif;
     font-weight: 400;
     font-size: 108px;
-
     /* line-height: 124px; */
     line-height: 115%;
     letter-spacing: 0.02em;
     text-transform: uppercase;
     text-align: right;
     color: #292929;
-
     width: 447px;
     height: 124px;
 
@@ -135,7 +138,6 @@
     font-family: "Impact", sans-serif;
     font-weight: 400;
     font-size: 108px;
-
     /* line-height: 124px; */
     line-height: 115%;
     letter-spacing: 0.02em;
@@ -164,7 +166,6 @@
     font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-size: 36px;
-
     /* line-height: 48px; */
     line-height: 133%;
     letter-spacing: 0.01em;
@@ -175,11 +176,11 @@
     padding-bottom: 32px;
   }
 
-  .text-bio {
+  /* .text-bio {
     width: 336px;
     padding-top: 0;
     padding-bottom: 24px;
-  }
+  } */
 
   .img-container {
     display: flex;
@@ -199,17 +200,17 @@
 @media screen and (min-width: 1280px) {
 
   .about-me {
-    margin: 0 auto;
-    padding: 0 32px 0 32px;
+    /* margin: 0 auto;
+    padding: 0 32px 0 32px; */
   }
 
   .container-about-me {
     position: relative;
     padding-top: 116px;
 
-    background-image: url('../img/about-me/about-me-background.png');
-    background-image: image-set(url('../img/about-me/about-me-background.png') 1x,
-        url('../img/about-me/about-me-background-2x.png') 2x);
+    background-image: url('/img/about-me/about-me-background.png');
+    background-image: image-set(url('/img/about-me/about-me-background.png') 1x,
+        url('/img/about-me/about-me-background-2x.png') 2x);
     background-repeat: no-repeat;
     background-position: right center;
     background-size: 526px 408px;
@@ -228,9 +229,9 @@
     padding-left: 240px;
   }
 
-  .text-bio {
+  /* .text-bio {
     width: 488px;
-  }
+  } */
 
   .point-items-text {
     width: 384px;
