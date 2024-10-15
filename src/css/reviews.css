@@ -120,7 +120,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  #reviews{
+  #reviews {
     padding-top: 124px;
   }
   .reviews-title {
@@ -142,20 +142,18 @@
 
   /* .nav-arrows {
     /* margin-top: -2px; */
-
 }
 
 @media only screen and (min-width: 1280px) {
-
   /* .nav-arrows {
     margin-top: -25px; */
-#reviews {
+  #reviews {
     padding-top: 164px;
   }
 
   .reviews-list {
     width: 1216px;
-    height: 224px;
+    min-height: 224px;
     justify-content: space-between;
   }
 
