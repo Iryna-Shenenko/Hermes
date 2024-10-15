@@ -15,7 +15,7 @@
 .faq-section .title span {
   color: #00b068;
 }
-.title-faq{
+.title-faq {
   max-width: 320px;
   margin-bottom: 40px;
 }
@@ -79,7 +79,7 @@
   transform: translate(0);
 }
 
-.faq-section .ac.is-active>.ac-header .ac-trigger::after {
+.faq-section .ac.is-active > .ac-header .ac-trigger::after {
   transform: rotate(180deg);
 }
 
@@ -108,7 +108,7 @@
   }
 
   @media only screen and (-webkit-min-device-pixel-ratio: 2),
-  only screen and (min-resolution: 192dpi) {
+    only screen and (min-resolution: 192dpi) {
     .faq-section .container {
       background-image: url(/img/faq/decor-bg-retina.png);
     }
@@ -142,9 +142,9 @@
 }
 
 .dark-theme .faq-section .ac .ac-trigger::after {
-  content: url(/img/faq/dark-faq-arrow.svg);
+  content: url(/img/faq/dark-faq-arrow.svg) !important;
 }
 
 .dark-theme .faq-section .ac.js-enabled.is-active .ac-trigger::after {
-  content: url(/img/faq/dark-faq-arrow.svg);
+  content: url(/img/faq/dark-faq-arrow.svg) !important;
 }
