@@ -50,20 +50,20 @@ let visibleImages = 3;
 function createImageCards(images) {
     return images.map(image => `
     <li class="myprojects-gallery-item">
-    <div>
-          <img class="myprojects-photo-card" src="${image.picture}" alt="${image.text}" />
-        </div>
+            <img class="myprojects-photo-card" src="${image.picture}" alt="${image.text}" />
         <div class="myprojects-subtitle">
-          <p class="myprojects-subtitle-text">React, JavaScript, Node JS, Git</p>
+          <p class="myprojects-subtitle-text">React, JavaScript, Node JS, Git</p></div>
           <div class="myprojects-info">
             <h3 class="myprojects-info-title">${image.text}</h3>
-            <a href="${BASE_URL}">
-            <button class="myprojects-info-button">visit
+            <div class="project-btn-container">
+            
+            <button type="button" class="myprojects-info-button" target="_blank"><a href="${BASE_URL}">visit
                 <svg width="24" height="24">
-                        <use href="../img/my-projects/myprojects.svg#icon-visit"></use>
-                </svg>
+                        <use href="/img/my-projects/myprojects.svg#icon-visit"></use>
+                </svg></a>
             </button>
-            </a>
+            
+           
         </div>
     </div>
     </li>
