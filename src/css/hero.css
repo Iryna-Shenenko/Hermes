@@ -5,7 +5,7 @@
 }
 
 .hero {
-  background-image: url('../img/hero/hero-bg-mob.png');
+  background-image: url('/img/hero/hero-bg-mob.png');
 }
 
 .hero-title-first {
@@ -106,7 +106,7 @@
   }
 
   .hero {
-    background-image: url('../img/hero/hero-bg-tablet.png');
+    background-image: url('/img/hero/hero-bg-tablet.png');
   }
 
   .hero-title-first {
@@ -160,7 +160,7 @@
   }
 
   .hero {
-    background-image: url(../img/hero/hero-bg-desk.png);
+    background-image: url(/img/hero/hero-bg-desk.png);
   }
 
   .hero-title-first {

@@ -54,6 +54,7 @@
 
 @media screen and (max-width: 360px) {
   .about-me {
+    padding-top: 80px;
     padding-bottom: 80px;
   }
 
@@ -87,6 +88,7 @@
   .about-me {
     /* margin: 0 auto;
     padding: 0 20px 0 20px; */
+    padding-top: 80px;
    padding-bottom: 80px;
   }
 
@@ -121,8 +123,8 @@
   }
   .about-me {
     /* margin: 0 auto; */
-padding-top: 124p;
-padding-bottom: 124px;
+  padding-top: 124px;
+  padding-bottom: 124px;
   }
 
   .about-me .title {
@@ -134,7 +136,7 @@ padding-bottom: 124px;
     letter-spacing: 0.02em;
     text-transform: uppercase;
     text-align: right;
-    color: #292929;
+    /* color: #292929; */
     width: 447px;
     height: 124px;
   }
@@ -219,7 +221,7 @@ padding-bottom: 124px;
 
   .container-about-me {
     position: relative;
-    padding-top: 116px;
+    /* padding-top: 116px; */
 
     background-image: url("/img/about-me/about-me-background.png");
     background-image: image-set(
