@@ -294,14 +294,14 @@ function createImageCards(images) {
         <div class="myprojects-info"> 
             <h3 class="myprojects-info-title">${image.text}</h3> 
             <div class="project-btn-container"> 
-                <button type="button" class="myprojects-info-button" target="_blank"> 
-                    <a href="${BASE_URL}">visit 
-                        <svg class ="info-svg-button" width="24" height="24"> 
-                            <use href="/img/my-projects/myprojects.svg#icon-visit"></use> 
-                        </svg> 
-                    </a> 
-                </button> 
-            </div> 
+    <button type="button" class="myprojects-info-button"> 
+        <a href="${BASE_URL}" target="_blank">visit 
+            <svg class="info-svg-button" width="24" height="24"> 
+                <use href="/img/my-projects/myprojects.svg#icon-visit"></use> 
+            </svg> 
+        </a> 
+    </button> 
+</div>
         </div> 
     </li> 
     `).join(''); 
