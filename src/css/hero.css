@@ -33,7 +33,9 @@
 
 .icon-arrow {
   color: #00B068;
-  margin-right: 10px;
+  margin-right: 20px;
+  stroke-width: 2px;
+  stroke: #00b068;
 }
 
 .hero-link {
