@@ -58,7 +58,7 @@
   text-transform: uppercase;
   color: #292929;
 }
-.project-btn-container{
+.project-btn-container {
   display: flex;
   justify-content: flex-end;
 }
@@ -67,7 +67,6 @@
   align-items: center;
   justify-content: flex-start;
   flex-direction: row;
-  gap: 12px;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -76,10 +75,11 @@
   color: #292929;
   border-radius: 8px;
   padding: 12px 24px;
-  max-width: 125px;
+  width: auto;
   height: 48px;
   background: #e4e5e6;
   border: none;
+  text-transform: uppercase;
 }
 
 .myprojects-info-button:hover {
@@ -159,16 +159,16 @@
   .myprojects-subtitle-text {
     margin-bottom: 20px;
   }
-  .project-btn-container{
-  display: block;
-  margin-left: auto;;
-}
+  .project-btn-container {
+    display: block;
+    margin-left: auto;
+  }
 
   .myprojects-info {
-       /* align-items: flex-start; */
+    /* align-items: flex-start; */
     justify-content: flex-start;
     flex-direction: row;
-        /* justify-content: space-between; */
+    /* justify-content: space-between; */
     /* gap: auto; */
   }
 
@@ -224,4 +224,9 @@
 
 .dark-theme .myprojects-button-load[disabled] {
   color: #f0f0f0;
+}
+
+.info-svg-button {
+  margin-left: 12px;
+  vertical-align: middle;
 }
