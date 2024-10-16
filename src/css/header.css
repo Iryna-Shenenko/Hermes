@@ -1,10 +1,10 @@
-body.light-theme .header {
+body.light-theme .header h3{
   background-color: #f0f0f0;
   color: #333333;
   stroke: #292929;
 }
 
-body.dark-theme .header {
+body.dark-theme .header h3{
   background-color: #1E2023;
   color: #fff;
   stroke: #fff;

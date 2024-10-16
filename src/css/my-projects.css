@@ -1,3 +1,15 @@
+#my-projects{
+  padding-top: 80px;
+}
+
+.dark-theme .projects-visiting-btn{
+background-color: #00b068;;
+}
+.dark-theme  .projects-visiting-btn:hover,
+.dark-theme .projects-visiting-btn:focus{
+background: #009156;
+}
+
 .my-projects-title {
   margin-bottom: 40px;
   text-align: center;
@@ -48,6 +60,13 @@
   width: 125px;
   height: 48px;
   background: #e4e5e6;
+      font-family: "Poppins",
+          sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: .03125em;
 
 }
 
@@ -103,6 +122,10 @@
 /* ************ Tablet Adaptive ************ */
 
 @media only screen and (min-width: 768px) {
+  #my-projects{
+  padding-top: 124px;
+}
+
   .my-projects-title {
     margin-bottom: 60px;
   }
@@ -145,9 +168,13 @@
 /* ********* Dekstop adaptive ********** */
 
 @media only screen and (min-width: 1280px) {
-  .my-projects-container {
+  #my-projects {
+      padding-top: 164px;
+    }
+
+  /* .my-projects-container {
     padding-bottom: 48px;
-  }
+  } */
 
   .my-projects-title {
     margin-bottom: 80px;
@@ -165,7 +192,7 @@
     line-height: 1.3;
     letter-spacing: 0.01em;
     text-transform: uppercase;
-    color: #292929;
+    /* color: #292929; */
   }
 
   .projects-img-list {
