@@ -24,7 +24,7 @@
   border-radius: 16px;
   padding: 32px;
   width: 320px;
-  min-height: 296px !important;
+  /* min-height: 296px !important; */
   background-color: #e4e5e6;
 }
 
@@ -57,6 +57,7 @@
   display: flex;
   flex-direction: column;
   gap: 24px;
+  height: 100%;
 }
 
 .reviews-credentials {
@@ -77,7 +78,7 @@
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.03em;
-  color: black;
+  flex-grow: 1;
 }
 
 .reviews-author {
@@ -105,7 +106,20 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  /* outline: none; */
+  outline: none;
+}
+
+.arrow-icon:hover,
+.nav-arrow-next:focus .arrow-icon,
+.nav-arrow-prev:focus .arrow-icon {
+  background-color: #bbbbbb;
+}
+
+.dark-theme .nav-arrow-next:hover .arrow-icon,
+.dark-theme .nav-arrow-prev:hover .arrow-icon,
+.dark-theme .nav-arrow-next:focus .arrow-icon,
+.dark-theme .nav-arrow-prev:focus .arrow-icon {
+  background-color: #3b3f45;
 }
 
 .arrow-icon {
