@@ -9,6 +9,8 @@ import iziToast from "izitoast";
 
 const carousel = document.querySelector(".reviews-list");
 const reviewsSection = document.querySelector("#reviews");
+const prevButton = document.querySelector(".nav-arrow-prev");
+const nextButton = document.querySelector(".nav-arrow-next");
 
 const breakpoints = {
   mobile: 320,
@@ -29,6 +31,13 @@ const swiper = new Swiper(".swiper", {
   keyboard: {
     enabled: true,
   },
+});
+
+nextButton.addEventListener("click", () => {
+  nextButton.blur();
+});
+prevButton.addEventListener("click", () => {
+  prevButton.blur();
 });
 
 handleViewportChange();
