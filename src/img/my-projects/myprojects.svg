@@ -3,3 +3,7 @@
 <symbol id="icon-icon-2" viewBox="0 0 32 32">
 <path fill="none" stroke="#00b068" style="stroke: var(--color1, #00b068)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.6667" d="M6.333 25.667l19.333-19.333M25.667 6.333h-18M25.667 6.333v18"></path>
 </symbol>
+
+<symbol id="icon-Vector-24" viewBox="0 0 32 32">
+<path fill="none" stroke="#00b068" style="stroke: var(--color1, #00b068)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="3.5556" d="M3.111 28.889l25.778-25.778M28.889 3.111h-24M28.889 3.111v24"></path>
+</symbol>

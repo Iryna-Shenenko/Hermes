@@ -45,10 +45,15 @@
 }
 
 .projects-arrow-svg {
+  width: 14.5px;
+  height: 14.5px;
+  color: #00b068;
   margin-left: 12px;
-  stroke-width: 2px;
+  /* stroke-width: 2px; */
   stroke: #00b068;
+
 }
+
 
 .projects-btn-container {
   display: flex;
