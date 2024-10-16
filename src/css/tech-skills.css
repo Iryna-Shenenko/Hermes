@@ -37,7 +37,7 @@
   display: flex;
   white-space: nowrap;
 width: max-content;
-  animation: running-line 40s linear infinite;
+  animation: running-line 80s linear infinite;
 }
 
 @keyframes running-line {
@@ -107,7 +107,7 @@ width: max-content;
 }
 
 .reverse {
-  animation: reverse-running-line 40s linear infinite;
+  animation: reverse-running-line 80s linear infinite;
 }
 
 @media screen and (min-width: 320px) {
