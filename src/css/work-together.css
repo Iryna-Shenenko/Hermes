@@ -28,7 +28,7 @@
 
 .work-together {
     padding-top: 164px;
-    padding-bottom: 164px;
+    padding-bottom: 124px;
 }
 
 .section-heading {
@@ -220,7 +220,7 @@
 
 
 @media screen and (min-width: 768px) {
-    .work-together{    
+    .work-together {
         padding-top: 124px;
         padding-bottom: 124px;
     }
@@ -284,10 +284,11 @@
 }
 
 @media screen and (min-width: 1280px) {
-.work-together {
+    .work-together {
         padding-top: 164px;
         padding-bottom: 164px;
     }
+
     .work-together-container {
         background-image: url(/img/work-together/wt_x1_desktop.png),
             url(/img/work-together/wt_x2_desktop.png);
