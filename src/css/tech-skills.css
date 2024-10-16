@@ -35,9 +35,29 @@
 
 .experience {
   display: flex;
-  width: 100%;
   white-space: nowrap;
-  animation: running-line 20s linear infinite;
+width: max-content;
+  animation: running-line 80s linear infinite;
+}
+
+@keyframes running-line {
+  from {
+      transform: translateX(0);
+    }
+  
+    to {
+      transform: translateX(-100%);
+    }
+  }
+
+@keyframes reverse-running-line {
+  from {
+    transform: translateX(-100%);
+  }
+
+  to {
+    transform: translateX(0);
+  }
 }
 
 .running-text {
@@ -87,32 +107,23 @@
 }
 
 .reverse {
-  animation: reverse-running-line 20s linear infinite;
+  animation: reverse-running-line 80s linear infinite;
 }
 
-/* Мобилка 320px до 359px */
 @media screen and (min-width: 320px) {
   .running-text {
     font-size: 33px;
   }
-
-  /* .box-line {
-    padding: 0 15px;
-  } */
 }
 
-/* Мобилка  360px до 767px  */
+
 @media screen and (min-width: 360px) {
   .running-text {
     font-size: 34px;
   }
 
-  /* .box-line {
-  padding: 0 20px;
-  } */
-}
+ }
 
-/* Планшет */
 @media screen and (min-width: 768px) {
   .box-line {
     /* max-width: 768px; */
@@ -154,24 +165,3 @@
   }
 }
 
-/* бегущие строки */
-@keyframes running-line {
-  0% {
-    transform: translateX(100%);
-  }
-
-  100% {
-    transform: translateX(-100%);
-  }
-}
-
-/*обратное направления для второй строки */
-@keyframes reverse-running-line {
-  0% {
-    transform: translateX(-100%);
-  }
-
-  100% {
-    transform: translateX(100%);
-  }
-}
