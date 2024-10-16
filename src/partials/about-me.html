@@ -6,23 +6,29 @@
       <div class="img-container">
         <picture class="img-foto">
           <source
-            media="(min-width 1280px)"
-            srcset="/img/about-me/foto desck.jpg 1x, /img/about-me/foto desck@2x 2x.jpg"
-            type="image"
+            media="(min-width: 1280px)"
+            srcset="/img/about-me/foto_desck.jpg 1x, /img/about-me/foto _desck@2x.jpg 2x"
+            type="image/jpeg"
           />
           <source
             media="(min-width: 768px)"
-            srcset="/img/about-me/foto tablet.jpg 1x, /img/about-me/foto tablet@2x 2x.jpg"
-            type="image"
+            srcset="
+              /img/about-me/foto_tablet.jpg    1x,
+              /img/about-me/foto_tablet@2x.jpg 2x
+            "
+            type="image/jpeg"
           />
           <source
             media="(max-width: 768px)"
-            srcset="/img/about-me/foto mobil.jpg 1x, /img/about-me/foto mobil@2x 2x.jpg"
-            type="image"
+            srcset="
+              /img/about-me/foto_mobil.jpg    1x,
+              /img/about-me/foto_mobil@2x.jpg 2x
+            "
+            type="image/jpeg"
           />
           <img
             class="img-about-me"
-            src="/img/about-me/foto desck.jpg"
+            src="/img/about-me/foto_desck.jpg"
             alt="Foto"
             width="384"
             height="448"
