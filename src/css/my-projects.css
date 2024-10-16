@@ -26,8 +26,8 @@
   height: auto;
   margin-bottom: 12px;
   border-radius: 26px;
-  object-fit: unset;
-  background: url("path_to_image");
+  object-fit: cover;
+
 }
 
 
