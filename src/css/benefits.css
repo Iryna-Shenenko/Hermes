@@ -10,7 +10,7 @@
     line-height: 1.2308;
     letter-spacing: 0.03462em;
     text-transform: uppercase;
-    margin-bottom: 40px;
+    /* margin-bottom: 40px; */
 }
 
 .benefits-title span {
@@ -125,29 +125,32 @@
         font-size: 108px;
     }
 
-    .benefits-section {
+    .benefits-container{
         position: relative;
-        padding-top: 164px;
-
-        background-image: url('/img/benefits/benefits_decor_desk.png');
-        background-image: image-set(url('/img/benefits/benefits_decor_desk@1x.png') 1x,
-                url('/img/benefits/benefits_decor_desk@2x.png') 2x);
-        background-repeat: no-repeat;
-        background-position: right top;
-        background-size: 526px 408px;
+            background-image: url('/img/benefits/benefits_decor_desk.png');
+            background-image: image-set(url('/img/benefits/benefits_decor_desk@1x.png') 1x,
+                    url('/img/benefits/benefits_decor_desk@2x.png') 2x);
+            background-repeat: no-repeat;
+            background-position: right top;
+            background-size: 526px 408px;
     }
+
+    .benefits-section {
+             padding-top: 164px;
+
+         }
 
     .benefits-title {
         max-width: 682px;
-        position: absolute;
+        /* position: absolute;
         top: 116px;
-        left: 32px;
+        left: 32px; */
         font-size: 108px;
     }
 
-    .benefits-list {
+    /* .benefits-list {
         margin-top: 276px;
-    }
+    } */
 
 
     .benefits-list.grid-container {
