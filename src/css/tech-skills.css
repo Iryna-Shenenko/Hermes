@@ -1,12 +1,11 @@
 /*  для всего проекта */
 
 /* Контейнер */
-.box-line {
-  max-width: 100%;
-}
 
 .tech-skills{
-  padding:0;
+  max-width: 100%;
+  padding: 0;
+  margin: 0;
 }
 
 /* скрытый заговок секции */
@@ -116,7 +115,7 @@
 /* Планшет */
 @media screen and (min-width: 768px) {
   .box-line {
-    max-width: 768px;
+    /* max-width: 768px; */
     /* padding: 0 30px; */
   }
 
@@ -150,7 +149,7 @@
 /* Десктоп */
 @media screen and (min-width: 1280px) {
   .box-line {
-    max-width: 1280px;
+    /* max-width: 1280px; */
     /* padding: 0 40px; */
   }
 }
