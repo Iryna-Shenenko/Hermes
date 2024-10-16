@@ -1,5 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden"><defs><symbol id="icon-Arrow-1" viewBox="0 0 1712 32"><path fill="#00b068" d="M16 0C7.163 0 0 7.163 0 16s7.163 16 16 16V0zm0 32h1696V0H16v32z" style="fill:var(--color1, #00b068)"/></symbol><symbol id="icon-visit" viewBox="0 0 32 32"><path fill="none" stroke="#00b068" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.667" d="M6.333 25.667 25.666 6.334m.001-.001h-18m18 0v18" style="stroke:var(--color1, #00b068)"/></symbol></defs></svg>
-
-<symbol id="icon-icon-2" viewBox="0 0 32 32">
-<path fill="none" stroke="#00b068" style="stroke: var(--color1, #00b068)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.6667" d="M6.333 25.667l19.333-19.333M25.667 6.333h-18M25.667 6.333v18"></path>
-</symbol>
