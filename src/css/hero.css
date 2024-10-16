@@ -1,12 +1,12 @@
 .hero-info {
-  padding-left: 20px;
-  padding-right: 56px;
+  /* padding-left: 20px;
+  padding-right: 56px; */
 }
 
 .hero {
   background-image: url('/img/hero/hero-bg-mob.png');
   padding-top: 96px;
- }
+}
 
 .hero-title-first {
   font-family: Impact;
@@ -48,6 +48,7 @@
   color: #292929;
   text-decoration: none;
   position: absolute;
+  transition: color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-decor-div {
@@ -56,6 +57,11 @@
   width: 156px;
   height: 92px;
   margin-left: 164px;
+}
+
+.hero-link:hover,
+.hero-lin:focus {
+  color: #00B068;
 }
 
 .hero-p {
@@ -100,14 +106,14 @@
 }
 
 @media (min-width: 768px) {
-  .hero-info {
+  /* .hero-info {
     padding-left: 32px;
     padding-right: 32px;
-  }
+  } */
 
   .hero {
     background-image: url('/img/hero/hero-bg-tablet.png');
-    padding-top:88px;
+    padding-top: 88px;
   }
 
   .hero-title-first {
