@@ -25,9 +25,11 @@
   width: 100%;
   height: auto;
   margin-bottom: 12px;
-  border-radius: 20px;
-  object-position: inherit;
+  border-radius: 26px;
+  object-fit: unset;
+  background: url("path_to_image");
 }
+
 
 .projects-subtitle {
   font-family: "Poppins",
