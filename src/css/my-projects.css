@@ -1,236 +1,209 @@
-.my_project{
-  padding-top: 80px;
-}
-
-/* .myprojects-conteiner { */
-  /* min-width: 320px; */
-  /* margin-left: auto;
-  margin-right: auto; */
-  /* padding-top: 80px; */
-/* } */
-
-.myprojects-title {
-  font-family: "Impact", sans-serif;
+.my-projects-title {
+  margin-bottom: 40px;
   text-align: center;
-  font-size: 52px;
-  line-height: 1.23077;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #292929;
 }
 
-.myprojects-title-span {
-  color: #00b068;
+
+.projects-name {
+  margin-bottom: 16px;
 }
 
-.myprojects-gallery-item {
-  margin-top: 40px;
-}
-
-.myprojects-photo-card {
+.projects-img-list {
+  width: 100%;
+  height: auto;
+  margin-bottom: 12px;
   border-radius: 16px;
-  width: 320px;
-  height: 184px;
 }
 
-.myprojects-subtitle {
-  margin-top: 12px;
-}
-
-.myprojects-subtitle-text {
-  font-family: "Poppins", sans-serif;
+.projects-subtitle {
+  font-family: "Poppins",
+    sans-serif;
+  ;
   font-weight: 300;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.03em;
-  color: #292929;
+  color: var(--c-lt-text-main);
   margin-bottom: 16px;
 }
 
-.myprojects-info {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
-  gap: 16px;
+.projects-item {
+  margin-bottom: 40px;
 }
-.myprojects-info-title {
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  font-size: 32px;
-  line-height: 1.25;
-  letter-spacing: 0.02em;
-  text-transform: uppercase;
-  color: #292929;
+
+.projects-arrow-svg {
+  margin-left: 12px;
+  stroke: var(--c-lt-elem-accent);
 }
-.project-btn-container {
+
+.projects-btn-container {
   display: flex;
   justify-content: flex-end;
 }
-.myprojects-info-button {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  flex-direction: row;
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.03em;
-  color: #292929;
-  border-radius: 8px;
-  padding: 12px 24px;
-  width: auto;
-  height: 48px;
-  background: #e4e5e6;
-  border: none;
-  text-transform: uppercase;
+
+.projects-visiting-btn {
+  background-color: var(--c-lt-elem-bg);
+  border: transparent;
 }
 
-.myprojects-info-button:hover {
-  background: #bbb;
+.projects-visiting-btn:hover {
+  border: var(--c-lt-elem-accent);
+  background-color: var(--c-lt-elem-bg-effect);
+  transition: var(--trn-main-transition-params);
 }
 
-.myprojects-button-load {
+.projects-visiting-btn:focus {
+  border: var(--c-lt-elem-accent);
+  background-color: var(--c-lt-elem-bg-effect);
+  transition: var(--trn-main-transition-params);
+}
+
+.projects-button-container {
   display: flex;
-  align-items: flex-start;
   justify-content: center;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  gap: 0px;
+  align-items: center;
+}
+
+.projects-load-button {
   padding: 12px 24px;
-  width: 154px;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  position: relative;
+  font-family: var(--ff-global-font);
+  font-weight: 400;
   font-size: 18px;
-  line-height: 1.5;
+  line-height: 1.6;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #292929;
-  border: none;
-  background-color: transparent;
-  align-items: center;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 40px;
+  color: var(--c-lt-text-main);
 }
 
-.myprojects-button-load:hover {
-  color: #00b068;
+.projects-load-button:hover {
+  color: var(--c-lt-elem-accent);
+  transition: var(--trn-main-transition-params);
 }
 
-.myprojects-svg-load {
-  margin-right: auto;
-  margin-left: auto;
-  stroke-width: 2px;
-  stroke: #00b068;
+.projects-load-button::after {
+  content: '';
+  position: absolute;
+  left: 13%;
+  right: 13%;
+  bottom: 10px;
+  height: 2px;
+  display: inline-block;
+  background-color: #00b068;
 }
 
-.myprojects-button-load[disabled] {
-  opacity: 0.6;
-  cursor: not-allowed;
-  color: #292929;
-}
+/* ************ Tablet Adaptive ************ */
 
-.myprojects-button-load[disabled] .myprojects-svg-load {
-  opacity: 0;
-}
-
-@media screen and (min-width: 768px) {
-  .my_project {
-    /* max-width: 768px; */
-    /* padding: 0px 80px; */
-    padding-top: 124px;
+@media only screen and (min-width: 768px) {
+  .my-projects-title {
+    margin-bottom: 60px;
   }
 
-  .myprojects-title {
-    font-size: 108px;
-    line-height: 1.14815;
-    letter-spacing: 0.02em;
+  .projects-name {
+    margin-bottom: 0;
   }
 
-  .myprojects-gallery-item {
-    margin-top: 60px;
+  .projects-item {
+    margin-bottom: 60px;
   }
 
-  .myprojects-photo-card {
-    border-radius: 24px;
-    width: 704px;
-    height: 404px;
-  }
-
-  .myprojects-subtitle {
-    margin-top: 16px;
-  }
-
-  .myprojects-subtitle-text {
+  .projects-subtitle {
     margin-bottom: 20px;
   }
-  .project-btn-container {
+
+  .projects-img-list {
+    margin-bottom: 16px;
+    border-radius: 24px;
+  }
+
+  .projects-wallet-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .projects-visiting-btn {
+    margin-bottom: 0;
+  }
+
+  .projects-btn-container {
     display: block;
     margin-left: auto;
   }
+}
 
-  .myprojects-info {
-    /* align-items: flex-start; */
-    justify-content: flex-start;
-    flex-direction: row;
-    /* justify-content: space-between; */
-    /* gap: auto; */
+/* ************************ */
+
+/* ********* Dekstop adaptive ********** */
+
+@media only screen and (min-width: 1280px) {
+  .my-projects-container {
+    padding-bottom: 48px;
   }
 
-  .myprojects-info-title {
+  .my-projects-title {
+    margin-bottom: 80px;
+  }
+
+  .projects-item {
+    margin-bottom: 80px;
+  }
+
+  .projects-name {
+    font-family: var(--ff-global-font);
     font-size: 36px;
-    line-height: 1.33333;
+    line-height: 1.3;
     letter-spacing: 0.01em;
+    text-transform: uppercase;
+    color: var(--c-lt-text-main);
   }
 
-  .myprojects-button-load {
-    font-size: 20px;
-    line-height: 1.6;
-    width: 165px;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .my_project {
-    /* max-width: 1280px; */
-    /* padding: 0px 164px; */
-    padding-top: 164px;
+  .projects-img-list {
+    margin-bottom: 16px;
+    border-radius: 24px;
   }
 
-  .myprojects-gallery-item {
-    margin-top: 80px;
+  .projects-subtitle {
+    margin-bottom: 20px;
   }
 
-  .myprojects-photo-card {
-    width: 100%;
-    height: 100%;
+  .projects-visiting-btn {
+    margin-bottom: 0;
   }
 }
 
-.dark-theme {
-  background-color: #292933;
-  color: #f0f0f0;
+/* ********************* */
+
+.projects-visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+  opacity: 0;
 }
 
-.dark-theme h2,
-.dark-theme p,
-.dark-theme h3,
-.dark-theme button {
-  color: #f0f0f0;
+.item-appear {
+  animation: fadeIn 500ms ease-in;
 }
 
-.dark-theme .myprojects-info-button {
-  background: #2a2d32;
-}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
 
-.dark-theme .myprojects-info-button:hover {
-  background: #3b3f45;
-}
-
-.dark-theme .myprojects-button-load[disabled] {
-  color: #f0f0f0;
-}
-
-.info-svg-button {
-  margin-left: 12px;
-  vertical-align: middle;
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
