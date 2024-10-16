@@ -3,9 +3,9 @@
 }
 
 .dark-theme .projects-visiting-btn{
-background-color: #00b068;;
+background-color: #00b068;
 }
-.dark-theme  .projects-visiting-btn:hover,
+.dark-theme .projects-visiting-btn:hover,
 .dark-theme .projects-visiting-btn:focus{
 background: #009156;
 }
@@ -105,7 +105,7 @@ background: #009156;
 }
 
 .projects-load-button:hover {
-  color: #bbb
+  color: #00b068;
 }
 
 .projects-load-button::after {

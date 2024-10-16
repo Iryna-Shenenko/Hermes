@@ -1,10 +1,10 @@
-body.light-theme .header h3{
+body.light-theme .header{
   background-color: #f0f0f0;
   color: #333333;
   stroke: #292929;
 }
 
-body.dark-theme .header h3{
+body.dark-theme .header{
   background-color: #1E2023;
   color: #fff;
   stroke: #fff;
@@ -90,6 +90,7 @@ body.dark-theme .header h3{
   z-index: 2;
   padding-top: 20px;
   padding-bottom: 20px;
+  /* background-color: #e4e5e6; */
 }
 
 .container-header {
