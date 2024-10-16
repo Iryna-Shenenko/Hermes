@@ -68,8 +68,9 @@
       }
 
       .img-about-me {
-        border-radius: 16px;
-        max-width: 100%;
+        border-radius: 18px;
+        width: 100%;
+        /* max-width: 100%; */
         /* width: 320px; */
         /* height: 374px; */
       }
@@ -82,9 +83,17 @@
   } */
 
       .main-text-name {
-        /* padding-top: 28px;
-        padding-bottom: 20px; */
+      
+        padding-bottom: 20px;
       }
+      .point-item-container{
+        margin-top: 28px;
+        }
+
+   .point-am {
+  margin-top: 40px;
+   }
+
     }
 
     @media screen and (min-width: 360px) {
@@ -101,9 +110,13 @@
       }
 
       .img-about-me {
-        border-radius: 16px;
-        /* width: 320px; */
-        /* height: 374px; */
+        border-radius: 18px;
+        width: 320px;
+        height: 374px;
+      }
+
+      .bio-container{
+        margin-top: 40px;
       }
 
       /* .text-bio {
@@ -112,10 +125,10 @@
     padding: 12px 0;
   } */
 
-      .main-text-name {
+      /* .main-text-name {
         margin-top: 28px;
         margin-bottom: 20px;
-      }
+      } */
     }
 
     @media screen and (min-width: 768px) {
@@ -160,14 +173,20 @@
         display: block;
       }
 
+      .bio-container{
+        width: 336px;
+        margin-left: 32px;
+        margin-top: 0;
+      }
+
       .point-item-container {
         display: flex;
       }
 
       .img-about-me {
-        border-radius: 16px;
-        /* width: 336px; */
-        /* height: 392px; */
+        border-radius: 18px;
+        width: 336px;
+        height: 392px;
         /* padding: 408px 32px 20px 0; */
       }
 
@@ -186,9 +205,13 @@
         letter-spacing: 0.01em;
         text-transform: uppercase;
         /* color: #292929; */
-        margin-top: 40px;
-        margin-bottom: 32px;
+        /* margin-top: 40px; */
+        padding-bottom: 32px;
       }
+
+        .point-item-container {
+          margin-top: 40px;
+            }
 
       /* .text-bio {
     width: 336px;
@@ -217,7 +240,8 @@
       }
 
       .bio-container {
-        max-width: 487px;
+        width: 487px;
+        margin-left: 136px;
       }
 
       .container-about-me {
@@ -232,9 +256,9 @@
       }
 
       .img-about-me {
-        border-radius: 16px;
-        /* width: 384px; */
-        /* height: 448px; */
+        border-radius: 18px;
+        width: 384px; 
+        height: 448px;
         /* padding: 312px 136px 40px 240px; */
       }
 
@@ -246,6 +270,7 @@
 
       .point-item-container {
         padding-left: 75px;
+        margin-top: 0;
       }
 
       /* .text-bio {
@@ -262,7 +287,8 @@
 
       .img-container {
         justify-content: flex-end;
-        gap: 104px;
+        /* gap: 136px; */
+        margin-bottom: 80px;
       }
 
       .img-about-me {
