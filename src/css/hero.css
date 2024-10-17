@@ -185,5 +185,6 @@
     position: absolute;
     top: 288px;
     left: 700px;
+    max-height: auto;
   }
 }
