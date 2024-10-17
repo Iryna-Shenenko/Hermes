@@ -92,9 +92,9 @@
     width: 520px;
   }
 
-     .faq-section {
-       padding-top: 124px;
-     }
+  .faq-section {
+    padding-top: 124px;
+  }
 
   .faq-section .ac .ac-trigger p {
     width: 600px;
@@ -119,9 +119,9 @@
     }
   }
 
-    .faq-section {
-      padding-top: 164px;
-    }
+  .faq-section {
+    padding-top: 164px;
+  }
 
   .accordion-container {
     width: 592px;
@@ -140,7 +140,8 @@
 
 .dark-theme .faq-section p,
 .dark-theme .faq-section h2,
-.dark-theme .faq-section h3 {
+.dark-theme .faq-section h3,
+.dark-theme .faq-section span {
   color: white !important;
 }
 
