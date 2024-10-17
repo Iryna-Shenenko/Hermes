@@ -12,7 +12,11 @@
   /* margin-bottom: 40px; */
 }
 
-.faq-section .title span {
+.faq-span{
+  color: #00b068;
+}
+
+.dark-theme .faq-span{
   color: #00b068;
 }
 
@@ -141,7 +145,7 @@
 .dark-theme .faq-section p,
 .dark-theme .faq-section h2,
 .dark-theme .faq-section h3,
-.dark-theme .faq-section span {
+.dark-theme .ac-text  {
   color: white !important;
 }
 

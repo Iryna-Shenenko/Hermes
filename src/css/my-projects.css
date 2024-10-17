@@ -15,9 +15,18 @@
   color: #00b068;
 }
 
+.dark-theme .projects-title {
+  color: #00b068;
+}
+
+.projects-title {
+  color: #00b068;
+}
+
 .my-projects-title {
   margin-bottom: 40px;
   text-align: center;
+  color: #000;
 }
 
 
