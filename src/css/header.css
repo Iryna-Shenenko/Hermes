@@ -176,10 +176,17 @@ body.dark-theme .header{
   z-index: 999;
   visibility: hidden;
   opacity: 0;
+  overflow-y: auto;
   /* background-color: #fbfbfb; */
   pointer-events: none;
   transition: opacity 0.25s cubic-bezier(0.4, 0, 0.2, 1),
     visibility 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.body-scroll-lock {
+  overflow: hidden;
+  position: fixed;
+    width: 100%;
 }
 
 /* Світла тема для модального вікна */
@@ -199,7 +206,7 @@ body.dark-theme .header{
   flex-direction: column;
   text-align: center;
   align-items: flex-start;
-  width: 100%;
+  width: 320px;
   height: 100%;
   overflow: auto;
   /* background-color: #fbfbfb; */
