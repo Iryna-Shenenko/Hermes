@@ -12,6 +12,7 @@
   padding-top: 96px;
 }
 
+
 .hero-title-first {
   font-family: Impact;
   font-weight: 400;
@@ -92,6 +93,8 @@
   text-align: center;
   padding-top: 32px;
   padding-bottom: 32px;
+  padding-left: 0;
+  padding-right: 0;
   /* width: 100%; */
 }
 
@@ -164,6 +167,7 @@
 
   .hero-list {
     text-align: center;
+    /* max-width: 768px; */
   }
 
   .hero-item {
@@ -191,6 +195,7 @@
     background-size: cover;
     background-repeat: no-repeat;
   }
+
 
   .hero-title-first {
     margin-bottom: 80px;

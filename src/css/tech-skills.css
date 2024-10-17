@@ -2,11 +2,6 @@
 
 /* Контейнер */
 
-.tech-skills {
-  max-width: 100%;
-  padding: 0;
-  margin: 0;
-}
 
 /* скрытый заговок секции */
 .visually-hidden {
@@ -114,14 +109,28 @@
   .running-text {
     font-size: 33px;
   }
+
+
+  .box-line {
+    /* width: 100%; */
+    padding: 0;
+  }
 }
 
 
 @media screen and (min-width: 360px) {
+  .box-line {
+    padding: 0;
+  }
+
   .running-text {
     font-size: 34px;
   }
 
+  .tech-skills {
+    padding: 0;
+    /* margin: 0 auto; */
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -154,6 +163,11 @@
     letter-spacing: 0.01em;
     text-transform: uppercase;
     color: #00b068;
+  }
+
+  .tech-skills {
+    /* padding: 0; */
+    /* margin: 0 auto; */
   }
 }
 
