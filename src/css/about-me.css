@@ -87,7 +87,7 @@
   } */
 
       .main-text-name {
-        padding-bottom: 20px;
+        margin-bottom: 20px;
       }
 
       .point-item-container {
@@ -97,6 +97,9 @@
       .bio-container {
         margin-top: 40px;
       }
+            .point-items {
+              margin-bottom: 12px;
+            }
     }
 
     @media screen and (min-width: 360px) {
@@ -116,6 +119,10 @@
         border-radius: 18px;
         width: 320px;
         height: 374px;
+      }
+
+      .point-items{
+        margin-bottom: 12px;
       }
 
       /* .text-bio {
@@ -205,7 +212,7 @@
         text-transform: uppercase;
         /* color: #292929; */
         /* margin-top: 40px; */
-        padding-bottom: 32px;
+        margin-bottom: 32px;
       }
 
       .point-item-container {
@@ -227,8 +234,8 @@
         flex: 1;
       }
 
-      .point-items-text {
-        padding-bottom: 16px;
+      .point-items {
+        margin-bottom: 16px;
       }
 
       .point-container {
