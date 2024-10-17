@@ -3,12 +3,16 @@
 }
 
 .dark-theme .projects-visiting-btn {
-  background-color: #00b068;
+  background-color: #2a2d32;
 }
 
 .dark-theme .projects-visiting-btn:hover,
 .dark-theme .projects-visiting-btn:focus {
   background: #009156;
+}
+
+.dark-theme .projects-arrow-svg {
+  color: #00b068;
 }
 
 .my-projects-title {
@@ -24,8 +28,8 @@
 .projects-img-list {
   width: 100%;
   height: auto;
+  border-radius: 16px;
 
-  object-fit: cover
 }
 
 
