@@ -2,6 +2,25 @@
     padding-top: 80px;
 }
 
+ .benefits-list-title {
+     font-family: "Poppins", sans-serif;
+     font-weight: 400;
+font-size: 18px;
+line-height: 1.55556;
+letter-spacing: 0.03em;
+/* text-transform: uppercase; */
+color: #292929;
+ }
+
+ .benefits-list-title-text{
+    font-family: "Poppins", sans-serif;
+font-weight: 300;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.03em;
+    color: #292929;
+ }
+
 .section-title {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 52px;
@@ -91,6 +110,16 @@
         gap: 32px;
     }
 
+    .benefits-list-title{
+        font-family: "Poppins", sans-serif;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 1.6;
+            letter-spacing: 0.03em;
+            /* text-transform: uppercase; */
+            color: #292929;
+    }
+
     .grid-item1 {
         grid-column: 2 / 3;
         grid-row: 1;
@@ -121,6 +150,7 @@
         font-size: 108px;
     }
 
+   
     .benefits-title span {
         font-size: 108px;
     }

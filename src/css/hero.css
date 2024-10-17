@@ -1,7 +1,7 @@
 .hero-info {
   /* padding-left: 20px;
   padding-right: 56px; */
-  padding-top: 96px;
+  /* padding-top: 96px; */
   background-image: url('/img/hero/herobg-1x-mob.png'),
     url('/img/hero/herobg-2x-mob.png');
   background-repeat: no-repeat;
@@ -9,8 +9,7 @@
 }
 
 .hero {
-
-  /* padding-top: 96px; */
+  padding-top: 96px;
 }
 
 .hero-title-first {
@@ -118,11 +117,11 @@
 
   .hero {
 
-    /* padding-top: 88px; */
+    padding-top: 88px;
   }
 
   .hero-info {
-    padding-top: 88px;
+    /* padding-top: 88px; */
     background-image: url('/img/hero/herobg-1x-tab.png'),
       url('/img/hero/herobg-2x-tab.png');
     /* background-size: 526px; */
@@ -176,12 +175,12 @@
 
 @media (min-width: 1280px) {
   .hero {
-    /* padding-top: 168px; */
+    padding-top: 168px;
   }
 
   .hero-info {
 
-    padding-top: 168px;
+    /* padding-top: 168px; */
     background-image: url('/img/hero/hero-bg-1x-desk.png'),
       url('/img/hero/hero-bg-2x-desk.png');
     /* background-size: 526px; */

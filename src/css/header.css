@@ -84,7 +84,7 @@ body.dark-theme .header{
 
 /*---------HEADER---------- */
 .header {
-  display: block;
+  /* display: block; */
   position: sticky;
   top: 0;
   width: 100%;
