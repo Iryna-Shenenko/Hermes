@@ -57,8 +57,8 @@
     }
 
     .point-am {
-  margin-top: 40px;
-   }
+      margin-top: 40px;
+    }
 
     @media screen and (max-width: 360px) {
       #about-me {
@@ -86,18 +86,18 @@
     padding: 12px 0;
   } */
 
-  .main-text-name {
-    padding-bottom: 20px;
-  }
+      .main-text-name {
+        padding-bottom: 20px;
+      }
 
-  .point-item-container{
-    margin-top: 28px;
-    }
+      .point-item-container {
+        margin-top: 28px;
+      }
 
-  .bio-container{
+      .bio-container {
         margin-top: 40px;
       }
- }
+    }
 
     @media screen and (min-width: 360px) {
       #about-me {
@@ -118,7 +118,7 @@
         height: 374px;
       }
 
-       /* .text-bio {
+      /* .text-bio {
 
     width: 320px;
     padding: 12px 0;
@@ -172,7 +172,7 @@
         display: block;
       }
 
-      .bio-container{
+      .bio-container {
         width: 336px;
         margin-left: 32px;
         margin-top: 0;
@@ -208,13 +208,13 @@
         padding-bottom: 32px;
       }
 
-        .point-item-container {
-          margin-top: 40px;
-            }
+      .point-item-container {
+        margin-top: 40px;
+      }
 
- .point-am {
-  margin-top: 0;
-   }
+      .point-am {
+        margin-top: 0;
+      }
 
       /* .text-bio {
     width: 336px;
@@ -260,7 +260,7 @@
 
       .img-about-me {
         border-radius: 18px;
-        width: 384px; 
+        width: 384px;
         height: 448px;
         /* padding: 312px 136px 40px 240px; */
       }
