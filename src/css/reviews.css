@@ -107,24 +107,32 @@
   align-items: center;
   justify-content: center;
   outline: none;
+  border: 1px solid black;
+  border-radius: 8px;
+  width: 40px;
+  height: 40px;
 }
 
-.arrow-icon:hover,
-.nav-arrow-next:focus .arrow-icon,
-.nav-arrow-prev:focus .arrow-icon {
+.nav-arrow-next:hover,
+.nav-arrow-prev:hover,
+.nav-arrow-next:focus,
+.nav-arrow-prev:focus {
   background-color: #bbbbbb;
 }
 
-.dark-theme .nav-arrow-next:hover .arrow-icon,
-.dark-theme .nav-arrow-prev:hover .arrow-icon,
-.dark-theme .nav-arrow-next:focus .arrow-icon,
-.dark-theme .nav-arrow-prev:focus .arrow-icon {
+.dark-theme .nav-arrow-next:hover,
+.dark-theme .nav-arrow-prev:hover,
+.dark-theme .nav-arrow-next:focus,
+.dark-theme .nav-arrow-prev:focus {
   background-color: #3b3f45;
 }
 
 .arrow-icon {
-  border: 1px solid black;
-  border-radius: 8px;
+}
+
+.dark-theme .nav-arrow-next,
+.dark-theme .nav-arrow-prev {
+  border: 1px solid white;
 }
 
 .swiper-button-disabled {
