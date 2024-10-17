@@ -38,9 +38,10 @@
 .icon-arrow {
   color: #00B068;
   margin-right: 20px;
-  stroke-width: 2px;
+  stroke-width: 4px;
   stroke: #00b068;
 }
+
 
 .hero-link {
   font-family: var(--font-family);
@@ -53,6 +54,9 @@
   text-decoration: none;
   position: absolute;
   transition: color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .hero-decor-div {
@@ -208,6 +212,12 @@
     content: "";
     top: 288px;
     left: 52%;
+  }
+
+  .hero-link {
+    font-size: 20px;
+    line-height: 160%;
+
   }
 
 }
