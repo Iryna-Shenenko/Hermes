@@ -1,6 +1,7 @@
 .hero-info {
   /* padding-left: 20px;
   padding-right: 56px; */
+  max-width: 100%;
 }
 
 .hero {
