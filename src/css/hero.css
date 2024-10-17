@@ -6,11 +6,12 @@
     url('/img/hero/herobg-2x-mob.png');
   background-repeat: no-repeat;
   background-size: cover;
-}
+   }
 
 .hero {
   padding-top: 96px;
 }
+
 
 .hero-title-first {
   font-family: Impact;
@@ -88,6 +89,8 @@
   text-align: center;
   padding-top: 32px;
   padding-bottom: 32px;
+  padding-left: 0;
+  padding-right: 0;
   /* width: 100%; */
 }
 
@@ -160,6 +163,7 @@
 
   .hero-list {
     text-align: center;
+    /* max-width: 768px; */
   }
 
   .hero-item {
@@ -188,6 +192,7 @@
     background-repeat: no-repeat;
   }
 
+  
   .hero-title-first {
     margin-bottom: 80px;
   }
@@ -210,4 +215,12 @@
     left: 52%;
   }
 
-}
+  .hero-list{
+    /* max-width: 1280px; */
+  }
+
+  .hero-p{
+    margin-bottom: 132px;
+    }
+
+  }
