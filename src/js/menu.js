@@ -8,7 +8,7 @@ const menuLinks = document.querySelectorAll('.menu-header-link');
 if (openMenuBtn && menu) {
     openMenuBtn.addEventListener('click', function() {
         menu.classList.add('is-open'); 
-        document.body.classList.add('body-scroll-lock'); // Блокуємо скрол сторінки
+        document.body.classList.add('body-scroll-lock'); // Блокуєм скрол сторінки
     });
 }
 

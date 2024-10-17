@@ -10,6 +10,7 @@ body.dark-theme .header{
   stroke: #fff;
 }
 
+
 /*------ THEME SWITCH------- */
 .theme-switch__control {
   display: flex;
@@ -183,10 +184,9 @@ body.dark-theme .header{
     visibility 0.5s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+
 .body-scroll-lock {
   overflow: hidden;
-  position: fixed;
-    width: 100%;
 }
 
 /* Світла тема для модального вікна */
