@@ -12,11 +12,11 @@
   /* margin-bottom: 40px; */
 }
 
-.faq-span{
+.faq-span {
   color: #00b068;
 }
 
-.dark-theme .faq-span{
+.dark-theme .faq-span {
   color: #00b068;
 }
 
@@ -55,7 +55,9 @@
   margin-bottom: 24px;
 }
 
-.faq-section .ac .ac-trigger p {
+.faq-section .ac .ac-trigger span {
+  display: block;
+
   width: 224px;
   color: #292929;
 }
@@ -84,7 +86,7 @@
   transform: translate(0);
 }
 
-.faq-section .ac.is-active>.ac-header .ac-trigger::after {
+.faq-section .ac.is-active > .ac-header .ac-trigger::after {
   transform: rotate(180deg);
 }
 
@@ -100,7 +102,7 @@
     padding-top: 124px;
   }
 
-  .faq-section .ac .ac-trigger p {
+  .faq-section .ac .ac-trigger span {
     width: 600px;
     font-size: 20px;
 
@@ -117,7 +119,7 @@
   }
 
   @media only screen and (-webkit-min-device-pixel-ratio: 2),
-  only screen and (min-resolution: 192dpi) {
+    only screen and (min-resolution: 192dpi) {
     .faq-section .container {
       background-image: url(/img/faq/decor-bg-retina.png);
     }
@@ -133,7 +135,7 @@
     margin-top: -5vw;
   }
 
-  .faq-section .ac .ac-trigger p {
+  .faq-section .ac .ac-trigger span {
     width: 500px;
   }
 
@@ -145,7 +147,7 @@
 .dark-theme .faq-section p,
 .dark-theme .faq-section h2,
 .dark-theme .faq-section h3,
-.dark-theme .ac-text  {
+.dark-theme .ac-text {
   color: white !important;
 }
 
