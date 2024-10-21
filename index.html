@@ -16,7 +16,7 @@
     <script type="module" crossorigin src="/Hermes/index.js"></script>
     <link rel="modulepreload" crossorigin href="/Hermes/assets/vendor-LM-CufZg.js">
     <link rel="stylesheet" crossorigin href="/Hermes/assets/vendor-C7YZ2-cm.css">
-    <link rel="stylesheet" crossorigin href="/Hermes/assets/index-9JQOP9VX.css">
+    <link rel="stylesheet" crossorigin href="/Hermes/assets/index-CaWVEVND.css">
   </head>
 
   <body>
@@ -67,35 +67,36 @@
 <!--MENU-HEADER -->
 
 <div class="menu-header">
-  <div class="menu-header-open">
-    <a class="logo-link" href="./index.html"
-      >Lloyd<span class="color-logo">Jefferson.</span></a
-    >
+     <div class="logo-menu-header">
+    <a class="logo-link" href="./index.html">Lloyd<span class="color-logo">Jefferson.</span></a>
+    
     <button class="close-button" type="button">
       <svg class="close-icon" width="16" height="16">
         <use href="/Hermes/assets/icons-light-DyU44TTq.svg#icon-close-content"></use>
       </svg>
     </button>
-
+</div>
+<div class="menu-header-open">
     <ul class="menu menu-header-list">
       <li><a href="#about-me" class="menu-header-link">About me</a></li>
       <li><a href="#my-projects" class="menu-header-link">Projects</a></li>
       <li><a href="#work-together" class="menu-header-link">Contacts</a></li>
     </ul>
   </div>
+  </div>
 </div>
 
     <main>
       <section class="hero">
   <div class="container hero-info">
-    <div class="hero-title-container">
+  
     <h1 class="hero-title-first">
       Hello, I am
       <img class="hero-person" src="/Hermes/assets/person-CEKvqO0_.png" alt="person" />
       <br />
       <span class="hero-title">Fullstack developer</span>
     </h1>
-  </div>
+
     <div class="hero-box">
       <div class="hero-btn">
         <a href="#work-together" class="hero-link">
@@ -118,7 +119,7 @@
   <div class="container hero-list">
     <ul>
       <li class="hero-item">
-        <a
+        <a class="hero-item-link"
           href="https://www.instagram.com/goitclub/"
           target="_blank"
           rel="noopener noreferrer"
@@ -126,7 +127,7 @@
         >
       </li>
       <li class="hero-item">
-        <a
+        <a class="hero-item-link"
           href="https://www.facebook.com/goITclub/"
           target="_blank"
           rel="noopener noreferrer"
@@ -134,7 +135,7 @@
         >
       </li>
       <li class="hero-item">
-        <a
+        <a class="hero-item-link"
           href="https://www.linkedin.com/school/goit-start-your-career-in-it"
           target="_blank"
           rel="noopener noreferrer"
@@ -142,7 +143,7 @@
         >
       </li>
       <li class="hero-item last">
-        <a
+        <a class="hero-item-link"
           href="https://github.com/Iryna-Shenenko/Hermes"
           target="_blank"
           rel="noopener noreferrer"
@@ -998,26 +999,26 @@
       </div>
     </div>
     <div class="nav-arrows">
-      <div
+      <button
         class="nav-arrow-prev"
-        role="button"
+        type="button"
         tabindex="0"
         aria-label="Previous slide"
       >
         <svg class="arrow-icon" width="24" height="24">
           <use xlink:href="/Hermes/assets/arrow-BCBzfyYW.svg#icon-Arrow-1" />
         </svg>
-      </div>
-      <div
+      </button>
+      <button
         class="nav-arrow-next"
-        role="button"
+        type="button"
         tabindex="0"
         aria-label="Next slide"
       >
         <svg class="arrow-icon" width="24" height="24">
           <use xlink:href="/Hermes/assets/arrow-BCBzfyYW.svg#icon-Arrow-1" />
         </svg>
-      </div>
+      </button>
     </div>
   </div>
 </section>
@@ -1032,37 +1033,35 @@
         <p class="text-content">
           Contact me to transform your ideas into exceptional solutions.
         </p>
-        <address class="contacts-wt">
-          <ul class="contacts-section">
-            <li class="contacts-item">
+      <address class="contacts-wt">
+        <ul class="contacts-section">
+          <li class="contacts-item">
+            <a href="tel:380904567890" class="contacts-link">
               <svg class="svg-icon" width="24" height="24">
                 <use href="/Hermes/assets/icons-light-DyU44TTq.svg#icon-telefhone"></use>
               </svg>
-              <a href="tel:380904567890" class="contacts-link"
-                >+38 090 456 78 90</a
-              >
-            </li>
-            <li class="contacts-item">
+              +38 090 456 78 90
+            </a>
+          </li>
+          <li class="contacts-item">
+            <a href="mailto:lloydjefferson@gmail.com" class="contacts-link">
               <svg class="svg-icon" width="24" height="24">
                 <use href="/Hermes/assets/icons-light-DyU44TTq.svg#icon-email"></use>
               </svg>
-              <a href="mailto:lloydjefferson@gmail.com" class="contacts-link"
-                >lloydjefferson@gmail.com</a
-              >
-            </li>
-            <li class="contacts-item">
+              lloydjefferson@gmail.com
+            </a>
+          </li>
+          <li class="contacts-item">
+            <a href="https://maps.app.goo.gl/Yg95E26T66iXmwTa6" class="address-text contacts-link" target="_blank">
               <svg class="svg-icon" width="24" height="24">
                 <use href="/Hermes/assets/icons-light-DyU44TTq.svg#icon-navigation-1"></use>
               </svg>
-              <a
-                href="https://maps.app.goo.gl/Yg95E26T66iXmwTa6"
-                class="address-text contacts-link"
-                target="_blank"
-                >USA, New York</a
-              >
-            </li>
-          </ul>
-        </address>
+              USA, New York
+            </a>
+          </li>
+        </ul>
+      </address>
+
       </div>
       <form class="contact-form" id="contact-form" autocomplete="off">
         <label for="user-email">
@@ -1169,6 +1168,6 @@
   </div>
 </footer>
 
-
+  <button id="scrollTopBtn" class="scroll-top-btn">↑</button>
   </body>
 </html>
