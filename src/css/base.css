@@ -106,3 +106,37 @@ main:has(.back-link) {
 .dark-theme .ac {
   background: transparent;
 }
+
+
+.scroll-top-btn {
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #00B068;
+  color: white;
+  border: none;
+  padding: 15px;
+  border-radius: 100%;
+  cursor: pointer;
+  font-size: 24px;
+  display: none;
+  z-index: 100;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scroll-top-btn:hover {
+  background-color: #218838;
+}
+
+@media screen and (min-width: 768px){
+  .scroll-top-btn{
+      width: 60px;
+      height: 60px;
+      bottom: 100px;
+      right: 100px;
+        }
+}

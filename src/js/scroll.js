@@ -13,3 +13,27 @@ menuScroll.forEach(link => {
     });
   });
 });
+
+
+const scrollTopBtn = document.getElementById('scrollTopBtn');
+
+window.onscroll = function () {
+  scrollFunction();
+};
+
+// Показуємо кнопку, якщо сторінка прокручена більше ніж на 60px
+function scrollFunction() {
+  if (document.body.scrollTop > 60 || document.documentElement.scrollTop > 60) {
+    scrollTopBtn.style.display = 'flex';
+  } else {
+    scrollTopBtn.style.display = 'none';
+  }
+}
+
+// Прокручуємо сторінку догори, коли натискаємо на кнопку
+scrollTopBtn.addEventListener('click', function () {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth', // Плавна анімація
+  });
+});

@@ -2,8 +2,8 @@
   /* padding-left: 20px;
   padding-right: 56px; */
   /* padding-top: 96px; */
-  background-image: url('/img/hero/herobg-1x-mob.png'),
-    url('/img/hero/herobg-2x-mob.png');
+  background-image: url("/img/hero/herobg-1x-mob.png"),
+    url("/img/hero/herobg-2x-mob.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -12,10 +12,9 @@
   padding-top: 96px;
 }
 
-.hero-title-container{
+/* .hero-title-container{
   margin-bottom: 40px;
-}
-
+} */
 
 .hero-title-first {
   font-family: Impact;
@@ -25,11 +24,11 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #292929;
-  
+  margin-bottom: 40px;
 }
 
 .hero-title {
-  color: #00B068;
+  color: #00b068;
 }
 
 .hero-btn {
@@ -42,12 +41,11 @@
 }
 
 .icon-arrow {
-  color: #00B068;
+  color: #00b068;
   margin-right: 20px;
   stroke-width: 4px;
   stroke: #00b068;
 }
-
 
 .hero-link {
   font-family: var(--font-family);
@@ -66,7 +64,7 @@
 }
 
 .hero-decor-div {
-  background: #BCDFD1;
+  background: #bcdfd1;
   border-radius: 16px;
   width: 156px;
   height: 92px;
@@ -75,7 +73,7 @@
 
 .hero-link:hover,
 .hero-lin:focus {
-  color: #00B068;
+  color: #00b068;
 }
 
 .hero-p {
@@ -90,11 +88,11 @@
 }
 
 .hero-span {
-  color: #00B068;
+  color: #00b068;
 }
 
 .hero-list {
-  background-color: #E4E5E6;
+  background-color: #e4e5e6;
   text-align: center;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -113,6 +111,15 @@
   color: #292929;
 }
 
+.hero-item-link{
+    transition: color 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hero-item-link:hover,
+.hero-item-link:focus {
+  color: #00b068;
+}
+
 .last {
   margin: 0;
 }
@@ -128,14 +135,13 @@
   } */
 
   .hero {
-
     padding-top: 88px;
   }
 
   .hero-info {
     /* padding-top: 88px; */
-    background-image: url('/img/hero/herobg-1x-tab.png'),
-      url('/img/hero/herobg-2x-tab.png');
+    background-image: url("/img/hero/herobg-1x-tab.png"),
+      url("/img/hero/herobg-2x-tab.png");
     /* background-size: 526px; */
     background-repeat: no-repeat;
     background-size: cover;
@@ -191,15 +197,13 @@
   }
 
   .hero-info {
-
     /* padding-top: 168px; */
-    background-image: url('/img/hero/hero-bg-1x-desk.png'),
-      url('/img/hero/hero-bg-2x-desk.png');
+    background-image: url("/img/hero/hero-bg-1x-desk.png"),
+      url("/img/hero/hero-bg-2x-desk.png");
     /* background-size: 526px; */
     background-size: cover;
     background-repeat: no-repeat;
   }
-
 
   .hero-title-first {
     margin-bottom: 80px;
@@ -226,7 +230,5 @@
   .hero-link {
     font-size: 20px;
     line-height: 160%;
-
   }
-
 }

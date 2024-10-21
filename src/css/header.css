@@ -148,6 +148,7 @@ body.dark-theme .header{
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
   width: 32px;
   height: 32px;
   cursor: pointer;
@@ -177,11 +178,12 @@ body.dark-theme .header{
   z-index: 999;
   visibility: hidden;
   opacity: 0;
-  overflow-y: auto;
+  overflow-y: hidden;
   /* background-color: #fbfbfb; */
   pointer-events: none;
   transition: opacity 0.25s cubic-bezier(0.4, 0, 0.2, 1),
     visibility 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+padding:20px;
 }
 
 
@@ -205,20 +207,26 @@ body.dark-theme .header{
   display: flex;
   flex-direction: column;
   text-align: center;
-  align-items: flex-start;
-  width: 320px;
+  align-items: center;
+  /* width: 320px; */
   height: 100%;
   overflow: auto;
   /* background-color: #fbfbfb; */
   background-image: url(/img/header/top-header1x.png), url(/img/header/top-header2x.png);
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 20px;
+  /* padding: 20px; */
+}
+
+.logo-menu-header{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
 }
 
 .close-button {
-  position: absolute;
-  top: 16px;
+  position: relative;
   right: 20px;
   width: 32px;
   height: 32px;
@@ -237,12 +245,14 @@ body.dark-theme .header{
 }
 
 .menu-header-list {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 24px;
-  margin: auto;
+    margin: 0 auto;
+      height: 100vh;
+      max-width: 320px;
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+      justify-content: center;
+      align-items: center;
 }
 
 /* ------------MEDIA------------------ */

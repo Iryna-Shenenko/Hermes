@@ -113,20 +113,22 @@
   border-radius: 8px;
   width: 40px;
   height: 40px;
+  background-color: transparent;
+  transition: background 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-arrow-next:hover,
 .nav-arrow-prev:hover,
 .nav-arrow-next:focus,
 .nav-arrow-prev:focus {
-  background-color: #bbbbbb;
+  background: #bbbbbb;
 }
 
 .dark-theme .nav-arrow-next:hover,
 .dark-theme .nav-arrow-prev:hover,
 .dark-theme .nav-arrow-next:focus,
 .dark-theme .nav-arrow-prev:focus {
-  background-color: #3b3f45;
+  background: #3b3f45;
 }
 
 .arrow-icon {

@@ -26,6 +26,10 @@
     color: #00b068;
 }
 
+.no-scroll {
+    overflow: hidden;
+}
+
 .work-together {
     padding-top: 164px;
     padding-bottom: 124px;
