@@ -51,12 +51,14 @@ function showErrorToast(message) {
 // Функція для показу успішного модального вікна
 function showSuccessModal() {
     modal.classList.add('is-open');
+    document.body.classList.add('no-scroll');  // Блокуємо скролінг
 }
 
 // Функція для закриття модального вікна
 function closeModalWindow(event) {
    if (event.target === modal || closeBtn.contains(event.target) || event.key === 'Escape') {
     modal.classList.remove('is-open');
+    document.body.classList.remove('no-scroll');  // Відновлюємо скролінг
 }
 }
 
